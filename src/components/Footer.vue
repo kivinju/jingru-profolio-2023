@@ -1,30 +1,23 @@
 <template>
-    <div class="ui inverted menu header">
-        <router-link class="item" to="/">Jingru Zhao</router-link>
-        <div class="right menu">
-            <a class="item" href="#">
-                resume
-            </a>
+    <div class="ui inverted menu footer">
+        <div class="ui container">
+            footer can use absolute
         </div>
     </div>
 </template>
 
 <script>
     export default {
-        name: "Header"
+        name: "Footer"
     }
 </script>
 
 <style scoped>
-    .header {
-        position: sticky;
-        top: 0;
-        margin-top: -5px;
-        z-index: 100;
-    }
-    .item {
-        text-decoration: none;
+    .footer {
+        position: relative;
+        bottom: 0;
+        height: 100px;
         color: white;
-        font-size: 1.5em;
+        margin-top: 50px;
     }
 </style>
