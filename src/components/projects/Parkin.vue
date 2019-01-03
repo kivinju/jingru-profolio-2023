@@ -1,6 +1,6 @@
 <template>
     <div class="ui container">
-        <img src="../../assets/parkin/first.jpg">
+        <img src="../../assets/parkin/first.png">
         <div>
             <h2><span>About This Project</span></h2>
             <p>Project type:</p>

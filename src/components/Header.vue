@@ -29,6 +29,6 @@
     .item {
         text-decoration: none;
         color: white;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 </style>
