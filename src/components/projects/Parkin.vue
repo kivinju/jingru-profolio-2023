@@ -9,7 +9,7 @@
             <p>Problem:</p>
             <p>Solution:</p>
         </div>
-        <div class="ui five column grid">
+        <div class="ui five column grid jingru-box">
             <div class="column">
                 <img src="../../assets/parkin/p1.png">
             </div>
@@ -63,11 +63,22 @@ img {
 h2 span{
     background-color: orange;
 }
+h2 {
+    margin-top: 10px;
+}
 .vertical-center {
     margin: 0;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+p {
+    font-size: 1.5em;
+}
+.jingru-box {
+    margin-top: 10px;
+    padding-top: 10px;
+    /*background-color: rgba(0, 0, 0, 0.1);*/
 }
 </style>

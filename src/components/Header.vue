@@ -25,6 +25,7 @@
         top: 0;
         margin-top: -5px;
         z-index: 100;
+        border-radius: 0;
     }
     .item {
         text-decoration: none;
