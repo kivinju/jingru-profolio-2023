@@ -113,7 +113,8 @@
         top: 0;
         left: 0;
         min-width: 100%;
-        opacity: 0.75;
+        /*opacity: 0.75;*/
+        /*filter: grayscale(50%);*/
     }
 
     #title {
