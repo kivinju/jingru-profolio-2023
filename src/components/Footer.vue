@@ -1,5 +1,5 @@
 <template>
-    <div class="ui inverted menu footer">
+    <div class="bg-dark footer">
         <div class="ui container">
             footer can use absolute
         </div>

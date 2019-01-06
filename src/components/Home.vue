@@ -10,78 +10,22 @@
             </div>
         </div>
         <Header/>
-        <div class="ui container" id="projects">
-            <div class="ui two column grid">
-                <div class="column">
-                    <router-link class="ui link fluid card" to="/project/parkin">
-                        <div class="image">
-                            <img src="../assets/parkin.png">
-                        </div>
-                        <div class="content">
-                            <div class="header">Park in</div>
-                            <div class="meta">
-                                <a>Interaction and Interface Design</a>
-                            </div>
-                            <div class="description">
+        <div class="container" id="projects">
+            <div class="row">
+                <div class="col-lg-6">
+                    <router-link class="card" to="/project/parkin">
+                        <img src="../assets/parkin.png" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Park in</div>
+                            <div class="card-text">
                                 Park in Park in Park in Park in Park in Park in Park in Park in Park in Park in
                             </div>
                         </div>
-                        <div class="extra content">
-                            <span class="right floated">
+                        <div class="card-footer">
+                            <span class="float-right">
                                 2 months
                             </span>
                             <span>
-                                <i class="user icon"></i>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="column">
-                    <router-link class="ui link fluid card" to="/project/parkin">
-                        <div class="image">
-                            <img src="../assets/parkin.png">
-                        </div>
-                        <div class="content">
-                            <div class="header">Park in</div>
-                            <div class="meta">
-                                <a>Interaction and Interface Design</a>
-                            </div>
-                            <div class="description">
-                                Park in Park in Park in Park in Park in Park in Park in Park in Park in Park in
-                            </div>
-                        </div>
-                        <div class="extra content">
-                            <span class="right floated">
-                                2 months
-                            </span>
-                            <span>
-                                <i class="user icon"></i>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="column">
-                    <router-link class="ui link fluid card" to="/project/parkin">
-                        <div class="image">
-                            <img src="../assets/parkin.png">
-                        </div>
-                        <div class="content">
-                            <div class="header">Park in</div>
-                            <div class="meta">
-                                <a>Interaction and Interface Design</a>
-                            </div>
-                            <div class="description">
-                                Park in Park in Park in Park in Park in Park in Park in Park in Park in Park in
-                            </div>
-                        </div>
-                        <div class="extra content">
-                            <span class="right floated">
-                                2 months
-                            </span>
-                            <span>
-                                <i class="user icon"></i>
                                 Individual Project
                             </span>
                         </div>
@@ -132,5 +76,10 @@
 
     h2 {
         font-size: 4em;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 </style>

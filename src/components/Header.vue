@@ -1,14 +1,19 @@
 
 <template>
-    <div class="ui inverted menu header">
-        <router-link class="item" to="/">Jingru Zhao</router-link>
-        <div class="right menu">
-            <a class="item" href="/#projects" >
-                Projects
-            </a>
-            <a class="item" href="#">
-                Resume
-            </a>
+    <div class="navbar navbar-dark bg-dark header navbar-expand-md">
+        <router-link class="navbar-brand" to="/">Jingru Zhao</router-link>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-sm-2" >
+                    <a href="/#projects">Projects</a>
+                </li>
+                <li class="nav-item mr-sm-2">
+                    <a href="#">Resume</a>
+                </li>
+            </ul>
         </div>
     </div>
 </template>
@@ -23,11 +28,11 @@
     .header {
         position: sticky;
         top: 0;
-        margin-top: -5px;
+        margin-top: -8px;
         z-index: 100;
         border-radius: 0;
     }
-    .item {
+    a {
         text-decoration: none;
         color: white;
         font-size: 1em;
