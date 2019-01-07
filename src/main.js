@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from "./components/Home";
 import Parkin from "./components/projects/Parkin";
 import Project from "./components/Project";
+import Waterme from "./components/projects/Waterme";
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -15,14 +16,29 @@ const routes = [
             {
                 path: 'parkin',
                 component: Parkin
-            }
+            },
+            {
+                path: 'waterme',
+                component: Waterme
+            },
         ]
     }
 ]
 
 const router = new VueRouter({
     mode: 'history',
-    routes
+    routes,
+    scrollBehavior (to, from, savedPosition) {
+        if (to.hash) {
+            return {
+                selector: to.hash
+            }
+        } else if (savedPosition) {
+            return savedPosition
+        } else {
+            return { x: 0, y: 0 }
+        }
+    }
 })
 
 

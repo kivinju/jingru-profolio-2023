@@ -31,6 +31,25 @@
                         </div>
                     </router-link>
                 </div>
+                <div class="col-lg-6">
+                    <router-link class="card" to="/project/waterme">
+                        <img src="../assets/parkin.png" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Water me</div>
+                            <div class="card-text">
+                                Interaction & Interface Design
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="float-right">
+                                2 months
+                            </span>
+                            <span>
+                                Individual Project
+                            </span>
+                        </div>
+                    </router-link>
+                </div>
             </div>
         </div>
         <Footer></Footer>

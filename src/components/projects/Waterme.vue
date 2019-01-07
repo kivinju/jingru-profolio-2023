@@ -3,6 +3,7 @@
         <div class="row">
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
             <div class="col-md-8">
+                <h1>Water Me</h1>
                 <img src="../../assets/parkin/first.png">
                 <div>
                     <h2><span>About This Project</span></h2>
@@ -42,7 +43,7 @@
                 <div>
                     <h2 id="i-b"><span>BACKGROUND</span></h2>
                     <div class="row">
-                        <div class="col-lg-8">
+                        <div class="offset-lg-1 col-lg-6">
                             <div>
                                 <p>The popularity of cars makes people more willing to drive instead of taking a bus or
                                     subway.
@@ -155,7 +156,7 @@
                 <h1 id="i-id" class="text-center">03 / Interaction Design</h1>
                 <h2 id="i-w"><span>WIREFRAMES</span></h2>
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="offset-lg-1 col-lg-6">
                         <div>
                             <p>For the design process I first started with paper sketching and then gradually moved up,
                                 creating
@@ -215,7 +216,7 @@
     import Sidebar from '../util/Sidebar'
 
     export default {
-        name: "Parkin",
+        name: "Waterme",
         data() {
             return {
                 "indexes": [

@@ -7,7 +7,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-sm-2" >
+                <li class="nav-item mr-sm-4" >
                     <a href="/#projects">Projects</a>
                 </li>
                 <li class="nav-item mr-sm-2">

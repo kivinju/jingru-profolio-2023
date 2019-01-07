@@ -38,7 +38,7 @@
                   i.sub.forEach(s => {els.push(s)})
               })
               els.forEach(i => {
-                  let offset = 100 + window.document.getElementById(i.id).offsetTop - window.scrollY
+                  let offset = window.scrollY - window.document.getElementById(i.id).offsetTop
                   if (offset > 0 && offset < min) {
                       min = offset
                       min_highlight = i.id
