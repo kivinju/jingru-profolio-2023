@@ -66,7 +66,7 @@
                             the
                             same four functions: <span>search parking lot</span>, <span>real-time cost</span>,
                             <span>vacant space,</span> and <span>online payment</span>.</p>
-                        <p>In my design, I consider to keep them as they are very important.</p>
+                        <!--<p>In my design, I consider to keep them as they are very important.</p>-->
 
                         <div class="row">
                             <div class="col">
@@ -82,12 +82,12 @@
                     <h2 id="i-ui"><span>USER INTERVIEWS</span></h2>
                     <div class="interview">
                         <p>I took 12 interviews and recorded them as videos.</p>
-                        <p>This was one of the interviews with my friend “Mei Han”, who was a new driver.</p>
+                        <p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>
                         <p>I interviewed her when she was parking in the parking lot of a supermarket. I hoped to
                             discover her
                             essential requirements for parking.</p>
 
-                        <img src="../../assets/parkin/user_interviews_a.png">
+                        <img src="../../assets/parkin/user_interviews_a.png" style="margin-bottom:5px;">
                         <img src="../../assets/parkin/user_interviews_b.png">
                     </div>
 
@@ -99,7 +99,7 @@
                     <h2 id="i-i"><span>INSIGHT</span></h2>
                     <div class="insight">
                         <ol>
-                            <li>Provide <span>navigation</span> from the current location to the
+                            <li>Provide <span>navigation</span> from current location to the
                                 <span>parking lot</span> and
                                 <span>parking space</span>.
                             </li>
@@ -125,12 +125,12 @@
                         user
                         steps. Some of the flows I explored included: </p>
                     <ol>
-                        <li>Search parking lot and navigate to it</li>
-                        <li>Choose a parking space</li>
-                        <li>Record the parking space (If the parking space has been chosen, ignore this step)</li>
-                        <li>Check parking time and cost</li>
-                        <li>Navigate to the car</li>
-                        <li>Pay the parking fee online</li>
+                        <li>Search for an ideal parking lot and navigate to it.</li>
+                        <li>Choose a parking space.</li>
+                        <li>Record the parking space (If the parking space has been chosen, ignore this step).</li>
+                        <li>Check parking time and cost.</li>
+                        <li>Navigate to the car.</li>
+                        <li>Pay the parking fee online.</li>
                     </ol>
 
                     <div class="row">
@@ -146,7 +146,7 @@
                 <h2 id="i-jm"><span>JOURNEY MAP</span></h2>
                 <div class="map">
                     <p>After the scenario, I “zoomed out” to observe the whole picture. The site map allowed me to
-                        design a fluid and intuitive way of navigating the app's content.</p>
+                        design a fluid and intuitive way of navigating the application's content.</p>
                     <img src="../../assets/parkin/journey_map.png">
                 </div>
 
@@ -173,12 +173,11 @@
 
                 <h2 id="i-vd"><span>VISUAL DESIGN</span></h2>
                 <div class="visual">
-                    <p>After the scenario, I “zoomed out” to observe the whole picture. The site map allowed me to
-                        design a
-                        fluid and intuitive way of navigating the app's content.</p>
+                    <p>I created visual pages and a logo that was inspired by colors of traffic signs and traffic lights.
+                        The combination of yellow and black gives people a good reminder. </p>
                 </div>
 
-                <img src="../../assets/parkin/visual_design_a.png">
+                <img src="../../assets/parkin/visual_design_a.png" style="margin-bottom:10px;">
                 <img src="../../assets/parkin/visual_design_b.png">
 
                 <hr>
@@ -186,23 +185,27 @@
 
                 <div class="test">
                     <p>I created a prototype that could communicate the service as it would be as if it was running like
-                        a
-                        real application. I chose a potential user, the person who inspired me, to walk through all the
+                        a real application. I chose a potential user, the person who inspired me of this project, to walk through all the
                         steps.</p>
                     <p>By observing her complete these tasks I was able to uncover things that were confusing, unclear,
                         or needed to be changed.</p>
                 </div>
                 <img src="../../assets/parkin/usability_test.png">
-                <p>During the test, I found the app could be improved in some ways:</p>
+                <p>During the test, I found the application could be improved in some ways:</p>
                 <ol>
                     <li>Adjust the font size</li>
                     <li>Simplify the procedure</li>
                     <li>Ease navigation back to the main page</li>
                 </ol>
+
+                <h2 id="i-it"><span>ITERATION</span></h2>
                 <p>As the tests validated or disproved many initial hypotheses, I continued to iterate on the designs.
-                    By the end of this process, the app had changed drastically. Through each iteration I honed my
-                    visual
-                    design skills and learned a lot about information architecture, hierarchy, and typography.</p>
+                    Through each iteration I honed my visual design skills and learned a lot about information architecture,
+                    hierarchy, and typography.</p>
+                <p>This is the iteration page for the “search for a parking lot” page. I increased font size and the size of
+                    pop-up page so the information was displayed clearly and the “Go” button can be clicked easily. Also,
+                    I dimmed the background color to emphasize the main information.</p>
+                <img src="../../assets/parkin/visual_revision.png">
 
                 <hr />
                 <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
@@ -241,7 +244,9 @@
                         ]
                     },
                     {
-                        'id': 'i-ut', 'content': '04 / Usability Test', 'sub': []
+                        'id': 'i-ut', 'content': '04 / Usability Test', 'sub': [
+                            {'id': 'i-it', 'content': 'ITERATION'}
+                        ]
                     },
                     {
                         'id': 'i-rt', 'content': '05 / Reflection & Takeaways\n', 'sub': []
@@ -274,7 +279,7 @@
     }
 
     p {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .jingru-box {
@@ -289,7 +294,7 @@
 
 
     li {
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 40px;
     }
 
