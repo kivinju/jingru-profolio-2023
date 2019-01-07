@@ -18,7 +18,7 @@
                         <div class="card-body">
                             <div class="card-title">Park in</div>
                             <div class="card-text">
-                                Park in Park in Park in Park in Park in Park in Park in Park in Park in Park in
+                                Interaction & Interface Design
                             </div>
                         </div>
                         <div class="card-footer">
@@ -82,4 +82,14 @@
         text-decoration: none;
         color: black;
     }
+
+    .card-title {
+        font-size: 2em;
+        margin-bottom: 1px;
+    }
+
+    .card-text, .card-footer {
+        opacity: 0.75;
+    }
+
 </style>

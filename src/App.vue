@@ -17,6 +17,6 @@ export default {
   font-family:  Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /*color: #666;*/
+  color: #3c3c3c;
 }
 </style>

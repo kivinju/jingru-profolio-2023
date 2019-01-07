@@ -68,7 +68,15 @@
                             <span>vacant space,</span> and <span>online payment</span>.</p>
                         <p>In my design, I consider to keep them as they are very important.</p>
 
-                        <img src="../../assets/parkin/competitive_analysis.png">
+                        <div class="row">
+                            <div class="col">
+                                <img src="../../assets/parkin/competitive_analysis_a.png">
+                            </div>
+                            <div class="col">
+                                <img src="../../assets/parkin/competitive_analysis_b.png">
+                            </div>
+                        </div>
+
                     </div>
 
                     <h2 id="i-ui"><span>USER INTERVIEWS</span></h2>
@@ -138,8 +146,8 @@
                 <h2 id="i-jm"><span>JOURNEY MAP</span></h2>
                 <div class="map">
                     <p>After the scenario, I “zoomed out” to observe the whole picture. The site map allowed me to
-                        design a
-                        fluid and intuitive way of navigating the app's content.</p>
+                        design a fluid and intuitive way of navigating the app's content.</p>
+                    <img src="../../assets/parkin/journey_map.png">
                 </div>
 
 
@@ -256,6 +264,7 @@
         text-align: center;
     }
 
+
     h1, h2{
         padding-top: 50px;
     }
@@ -267,6 +276,7 @@
     h2 {
         margin-top: 50px;
         margin-bottom: 30px;
+        font-size: 1.5em;
     }
 
     p {
@@ -283,12 +293,6 @@
         color: #008afc;
     }
 
-    .competitive img {
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
 
     li {
         font-size: 1.5em;
