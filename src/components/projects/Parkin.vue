@@ -209,6 +209,14 @@
 
                 <hr />
                 <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
+                <h2 class="takeaways">Using lo-fi prototype instead of hi-fi prototype to do the usability test</h2>
+                <p>After the first project, I realized that lo-fi prototypes (e.g. paper prototypes) are better for usability
+                    testing. Hi-fi prototypes take a long time to build and change. Also, users could be influenced by
+                    colors and fonts so sometimes we can not get the feedback on functions.</p>
+                <h2 class="takeaways">You are not your users</h2>
+                <p>Discovered and framed the problem myself, it was a tempting pitfall to design for myself.
+                    Fortunately, conducting interviews with potential users expanded my understanding of the problem
+                    and gave me many fresh ideas.</p>
             </div>
         </div>
     </div>
@@ -305,5 +313,9 @@
 
     .test {
         margin-top: 80px;
+    }
+
+    .takeaways {
+        margin-bottom: 10px;
     }
 </style>

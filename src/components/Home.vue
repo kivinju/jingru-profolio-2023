@@ -17,8 +17,11 @@
                         <img src="../assets/parkin.png" class="card-img-top">
                         <div class="card-body">
                             <div class="card-title">Park in</div>
+                            <!--<div class="card-description">-->
+                                <!--Interaction & Interface Design-->
+                            <!--</div>-->
                             <div class="card-text">
-                                Interaction & Interface Design
+                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
                             </div>
                         </div>
                         <div class="card-footer">
@@ -87,6 +90,7 @@
         color: white;
         transform: translate(-50%, -50%);
         text-align: center;
+        margin-bottom: 1px;
     }
 
     h1 {
@@ -100,6 +104,12 @@
     a {
         text-decoration: none;
         color: black;
+    }
+
+    .card-description {
+        opacity: 0.5;
+        font-size: 15px;
+        /*background-color: #FDDB4D;*/
     }
 
     .card-title {
