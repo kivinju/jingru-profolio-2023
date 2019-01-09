@@ -1,7 +1,7 @@
 <template>
     <div class="bg-dark footer">
         <div class="ui container">
-            footer can use absolute
+            <p class="text-center footer-text">© 2019 Jingru Zhao</p>
         </div>
     </div>
 </template>
@@ -19,5 +19,11 @@
         height: 100px;
         color: white;
         margin-top: 50px;
+    }
+    .footer-text {
+        padding-top: 30px;
+    }
+    .bg-dark {
+        background-color: black !important;
     }
 </style>

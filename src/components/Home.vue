@@ -55,6 +55,11 @@
                 </div>
             </div>
         </div>
+        <blockquote class="container blockquote text-center">
+            <hr>
+            <h3 class="mb-0 blockquote-content">"I haven't failed. I've just found 10,000 ways that won't work"</h3>
+            <footer class="blockquote-footer" style="font-size: 1em">Thomas Edison</footer>
+        </blockquote>
         <Footer></Footer>
     </div>
 </template>
@@ -121,4 +126,16 @@
         opacity: 0.75;
     }
 
+    .blockquote {
+        /*padding-top: 20px;*/
+    }
+
+    .blockquote-content {
+        padding-top: 10%;
+    }
+
+    .blockquote-footer {
+        padding-top: 30px;
+        padding-bottom: 10%;
+    }
 </style>
