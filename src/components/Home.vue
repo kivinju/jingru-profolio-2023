@@ -53,6 +53,50 @@
                         </div>
                     </router-link>
                 </div>
+                <div class="col-lg-6">
+                    <router-link class="card" to="/project/dvent">
+                        <img src="../assets/parkin.png" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Park In</div>
+                            <!--<div class="card-description">-->
+                            <!--Interaction & Interface Design-->
+                            <!--</div>-->
+                            <div class="card-text">
+                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="float-right">
+                                2 months
+                            </span>
+                            <span>
+                                Individual Project
+                            </span>
+                        </div>
+                    </router-link>
+                </div>
+                <div class="col-lg-6">
+                    <router-link class="card" to="/project/jot">
+                        <img src="../assets/parkin.png" class="card-img-top">
+                        <div class="card-body">
+                            <div class="card-title">Park In</div>
+                            <!--<div class="card-description">-->
+                            <!--Interaction & Interface Design-->
+                            <!--</div>-->
+                            <div class="card-text">
+                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="float-right">
+                                2 months
+                            </span>
+                            <span>
+                                Individual Project
+                            </span>
+                        </div>
+                    </router-link>
+                </div>
             </div>
         </div>
         <blockquote class="container blockquote text-center">

@@ -12,6 +12,7 @@
                     <p><strong>Problem:</strong> More and more people care a lot for animals but ignore the companionship of plants.</p>
                     <p><strong>Solution:</strong> A interactive device that intended to awake the consciousness of the
                         people to care for plants.</p>
+                    <p><strong>Youtube:</strong> <a href="https://youtu.be/nShqTc6s6gA" target="_blank">Link</a></p>
                 </div>
 
                 <hr />
@@ -167,6 +168,7 @@
                         <img src="../../assets/waterme/summary.png">
                     </div>
                 </div>
+
                 <br /><br /><br /><br /><br /><br /><br /><br /><br />
 
                 <!--<hr />-->
