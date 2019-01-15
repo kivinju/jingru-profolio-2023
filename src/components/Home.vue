@@ -16,7 +16,7 @@
                     <router-link class="card" to="/project/parkin">
                         <img src="../assets/parkin.png" class="card-img-top">
                         <div class="card-body">
-                            <div class="card-title">Park in</div>
+                            <div class="card-title">Park In</div>
                             <!--<div class="card-description">-->
                                 <!--Interaction & Interface Design-->
                             <!--</div>-->
@@ -36,11 +36,11 @@
                 </div>
                 <div class="col-lg-6">
                     <router-link class="card" to="/project/waterme">
-                        <img src="../assets/parkin.png" class="card-img-top">
+                        <img src="../assets/water_me.gif" class="card-img-top">
                         <div class="card-body">
-                            <div class="card-title">Water me</div>
+                            <div class="card-title">Water Me</div>
                             <div class="card-text">
-                                Interaction & Interface Design
+                                An interactive device that intended to awake the consciousness of the people to care for plants.
                             </div>
                         </div>
                         <div class="card-footer">

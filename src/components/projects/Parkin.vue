@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid" id="main" style="border: 0; padding-top: 40px">
+    <div class="container-fluid" id="main" style="border: 0; padding-top: 40px; padding-bottom: 170px">
         <div class="row">
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
             <div class="col-md-8">
@@ -12,9 +12,9 @@
                         a driver with a poor sense of direction.</p>
                     <p><strong>Problem:</strong> It is difficult for drivers to find suitable parking spaces and
                         remember their
-                        cars’ locations in a huge parking lot if it is full of cars.</p>
+                        cars’ locations in a huge parking lot full of cars.</p>
                     <p><strong>Solution:</strong> A mobile application, by presenting the available parking spots and
-                        parking information, helps drivers find their suitable spots before they even show up in the
+                        parking information, helps drivers find suitable spots before they even show up in the
                         parking
                         lot.
                         It also helps drivers to locate their cars quickly.</p>
@@ -48,11 +48,8 @@
                                     subway.
                                     Many shopping centers provide their own parking in order to attract more
                                     shoppers.</p>
-                                <p><strong>However</strong>, in the consequence of lacking guideposts, It is difficult
-                                    for
-                                    drivers to find parking spaces and remember their cars’ locations in a huge parking
-                                    lot if
-                                    it is full of cars.</p>
+                                <p>Because parking lots lack guideposts, it is difficult for drivers to find parking
+                                    spaces and remember their cars’ locations in huge parking lots full of cars.</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -81,7 +78,7 @@
 
                     <h2 id="i-ui"><span>USER INTERVIEWS</span></h2>
                     <div class="interview">
-                        <p>I took 12 interviews and recorded them as videos.</p>
+                        <p>I conducted 12 interviews and recorded them as videos.</p>
                         <p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>
                         <p>I interviewed her when she was parking in the parking lot of a supermarket. I hoped to
                             discover her
