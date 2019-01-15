@@ -13,7 +13,7 @@
         <div class="container" id="projects">
             <div class="row">
                 <div class="col-lg-6">
-                    <router-link class="card" to="/project/parkin">
+                    <router-link class="card card-top" to="/project/parkin">
                         <img src="../assets/parkin.png" class="card-img-top">
                         <div class="card-body">
                             <div class="card-title">Park In</div>
@@ -35,7 +35,7 @@
                     </router-link>
                 </div>
                 <div class="col-lg-6">
-                    <router-link class="card" to="/project/waterme">
+                    <router-link class="card card-top" to="/project/waterme">
                         <img src="../assets/water_me.gif" class="card-img-top">
                         <div class="card-body">
                             <div class="card-title">Water Me</div>
@@ -161,9 +161,12 @@
         /*background-color: #FDDB4D;*/
     }
 
+    .card-top {
+        margin-bottom: 30px ;
+    }
+
     .card-title {
         font-size: 2em;
-        margin-bottom: 1px;
     }
 
     .card-text, .card-footer {
