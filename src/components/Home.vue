@@ -143,7 +143,6 @@
         margin-top: 30px;
         box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.3);
         padding: 40px 40px 40px 20px;
-        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .vertical-center {
@@ -184,5 +183,8 @@
     }
     .card a{
         text-decoration: none;
+    }
+    #home {
+        background-color: rgba(0, 0, 0, 0.1);
     }
 </style>
