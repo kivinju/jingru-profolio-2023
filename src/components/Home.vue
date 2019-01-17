@@ -22,10 +22,10 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/parkin_cover.png" width="100%" style="padding: 8% 10% 8% 15%">
+                        <img src="../assets/parkin_cover.png" width="100%">
                     </div>
                     <div class="col-sm-6">
-                        <div class="vertical-center" style="padding: 0 20% 0 10%">
+                        <div class="vertical-center card-description">
                             <h1>PARK IN</h1>
                             <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
                             <div class="row">
@@ -51,10 +51,10 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/waterme_cover.png" width="100%"  style="padding: 8% 10% 8% 15%">
+                        <img src="../assets/waterme_cover.png" width="100%">
                     </div>
                     <div class="col-sm-6">
-                        <div class="vertical-center" style="padding: 0 20% 0 10%">
+                        <div class="vertical-center card-description">
                             <h1>Water Me</h1>
                             <p>An interactive device that intended to awake the consciousness of the people to care for plants.</p>
                             <div class="row">
@@ -142,7 +142,7 @@
     .card {
         margin-top: 30px;
         box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.3);
-        padding: 40px 40px 40px 20px;
+        padding: 40px 40px 40px 0;
     }
 
     .vertical-center {
@@ -152,19 +152,25 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
+    .card img {
+        padding: 8% 5% 8% 20%;
+    }
+    .card-description {
+        padding: 0 20% 0 10%;
+    }
 
     .card ul {
         list-style-type: none;
     }
 
     .card li {
-        padding: 20px 0 20px 0;
-        color: gray;
+        padding: 10px 0 10px 0;
+        color: rgba(0, 0, 0, 0.3);
         font-size: 1.3em;
     }
 
     .card li.active {
-        color: black;
+        color: rgba(0, 0, 0, 0.8);
         text-decoration: line-through;
     }
 
@@ -186,5 +192,8 @@
     }
     #home {
         background-color: rgba(0, 0, 0, 0.1);
+    }
+    #projects {
+        padding: 0 10% 0 10%;
     }
 </style>
