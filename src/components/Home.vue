@@ -11,91 +11,62 @@
         </div>
         <Header/>
         <div class="container" id="projects">
-            <div class="row">
-                <div class="col-lg-6">
-                    <router-link class="card card-top" to="/project/parkin">
-                        <img src="../assets/parkin.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title">Park In</div>
-                            <!--<div class="card-description">-->
-                                <!--Interaction & Interface Design-->
-                            <!--</div>-->
-                            <div class="card-text">
-                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <ul class="vertical-center">
+                            <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="../assets/parkin_cover.png" width="100%" style="padding: 8% 10% 8% 15%">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="vertical-center" style="padding: 0 20% 0 10%">
+                            <h1>PARK IN</h1>
+                            <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <div class="col-6">
+                                    <router-link to="/project/parkin"><h2>READ ON</h2></router-link>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <span class="float-right">
-                                2 months
-                            </span>
-                            <span>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
+                    </div>
                 </div>
-                <div class="col-lg-6">
-                    <router-link class="card card-top" to="/project/waterme">
-                        <img src="../assets/water_me.gif" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title">Water Me</div>
-                            <div class="card-text">
-                                An interactive device that intended to awake the consciousness of the people to care for plants.
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="../assets/waterme_cover.png" width="100%"  style="padding: 8% 10% 8% 15%">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="vertical-center" style="padding: 0 20% 0 10%">
+                            <h1>Water Me</h1>
+                            <p>An interactive device that intended to awake the consciousness of the people to care for plants.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <div class="col-6">
+                                    <router-link to="/project/waterme"><h2>READ ON</h2></router-link>
+                                </div>
                             </div>
                         </div>
-                        <div class="card-footer">
-                            <span class="float-right">
-                                2 months
-                            </span>
-                            <span>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-6">
-                    <router-link class="card" to="/project/dvent">
-                        <img src="../assets/parkin.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title">Park In</div>
-                            <!--<div class="card-description">-->
-                            <!--Interaction & Interface Design-->
-                            <!--</div>-->
-                            <div class="card-text">
-                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <span class="float-right">
-                                2 months
-                            </span>
-                            <span>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
-                </div>
-                <div class="col-lg-6">
-                    <router-link class="card" to="/project/jot">
-                        <img src="../assets/parkin.png" class="card-img-top">
-                        <div class="card-body">
-                            <div class="card-title">Park In</div>
-                            <!--<div class="card-description">-->
-                            <!--Interaction & Interface Design-->
-                            <!--</div>-->
-                            <div class="card-text">
-                                A mobile application that helps drivers find parking spots easily and save time in a large parking lot.
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            <span class="float-right">
-                                2 months
-                            </span>
-                            <span>
-                                Individual Project
-                            </span>
-                        </div>
-                    </router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,24 +126,6 @@
         color: black;
     }
 
-    .card-description {
-        opacity: 0.5;
-        font-size: 15px;
-        /*background-color: #FDDB4D;*/
-    }
-
-    .card-top {
-        margin-bottom: 30px ;
-    }
-
-    .card-title {
-        font-size: 2em;
-    }
-
-    .card-text, .card-footer {
-        opacity: 0.75;
-    }
-
     .blockquote {
         /*padding-top: 20px;*/
     }
@@ -184,5 +137,52 @@
     .blockquote-footer {
         padding-top: 30px;
         padding-bottom: 10%;
+    }
+
+    .card {
+        margin-top: 30px;
+        box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.3);
+        padding: 40px 40px 40px 20px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .card ul {
+        list-style-type: none;
+    }
+
+    .card li {
+        padding: 20px 0 20px 0;
+        color: gray;
+        font-size: 1.3em;
+    }
+
+    .card li.active {
+        color: black;
+        text-decoration: line-through;
+    }
+
+    .card h1 {
+        font-size: 3em;
+    }
+    .card h2 {
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .card .hline {
+        width:100%;
+        text-align:center;
+        border-bottom: 2px solid #000;
+        margin: 8px 0 20px;
+    }
+    .card a{
+        text-decoration: none;
     }
 </style>
