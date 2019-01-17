@@ -6,7 +6,7 @@
             </video>
             <div id="title">
                 <h1>Jingru Zhao</h1>
-                <h2>UI/UX Designer</h2>
+                <h3>User Experience Designer</h3>
             </div>
         </div>
         <Header/>
@@ -18,7 +18,7 @@
                             <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
                         </ul>
                     </div>
                     <div class="col-sm-5">
@@ -26,14 +26,14 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="vertical-center card-description">
-                            <h1>PARK IN</h1>
+                            <h1>Park In</h1>
                             <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
                             <div class="row">
                                 <div class="col-6">
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-6">
-                                    <router-link to="/project/parkin"><h2>READ ON</h2></router-link>
+                                    <router-link to="/project/parkin"><h2>R E A D &nbsp;&nbsp;&nbsp; O N</h2></router-link>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                             <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
                         </ul>
                     </div>
                     <div class="col-sm-5">
@@ -56,13 +56,42 @@
                     <div class="col-sm-6">
                         <div class="vertical-center card-description">
                             <h1>Water Me</h1>
-                            <p>An interactive device that intended to awake the consciousness of the people to care for plants.</p>
+                            <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
                             <div class="row">
                                 <div class="col-6">
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-6">
-                                    <router-link to="/project/waterme"><h2>READ ON</h2></router-link>
+                                    <router-link to="/project/waterme"><h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2></router-link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="../assets/dvent_cover_a.png" width="100%">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="vertical-center card-description">
+                            <h1>Dvent</h1>
+                            <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <div class="col-6">
+                                    <router-link to="/project/dvent"><h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2></router-link>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +170,7 @@
 
     .card {
         margin-top: 30px;
-        box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);
         padding: 40px 40px 40px 0;
     }
 
@@ -165,30 +194,37 @@
 
     .card li {
         padding: 10px 0 10px 0;
-        color: rgba(0, 0, 0, 0.3);
+        color: rgba(0, 0, 0, 0.1);
         font-size: 1.3em;
     }
 
     .card li.active {
         color: rgba(0, 0, 0, 0.8);
-        text-decoration: line-through;
+        /*text-decoration: line-through;*/
     }
 
     .card h1 {
         font-size: 3em;
+        color: black;
+
     }
     .card h2 {
         font-size: 1em;
         font-weight: bolder;
     }
     .card .hline {
-        width:100%;
+        width:80%;
         text-align:center;
         border-bottom: 2px solid #000;
         margin: 8px 0 20px;
     }
     .card a{
         text-decoration: none;
+    }
+
+    .card p {
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     #home {
         background-color: rgba(0, 0, 0, 0.1);
