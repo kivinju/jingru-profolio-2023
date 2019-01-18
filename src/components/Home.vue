@@ -11,7 +11,7 @@
         </div>
         <Header/>
         <div class="container" id="projects">
-            <div class="card">
+            <router-link class="card" to="/project/parkin">
                 <div class="row">
                     <div class="col-sm-1">
                         <ul class="vertical-center">
@@ -33,14 +33,14 @@
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-8">
-                                    <router-link to="/project/parkin"><h2>R E A D &nbsp;&nbsp;&nbsp; O N</h2></router-link>
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp; O N</h2>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </router-link>
+            <router-link class="card" to="/project/waterme">
                 <div class="row">
                     <div class="col-sm-1">
                         <ul class="vertical-center">
@@ -62,14 +62,14 @@
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-8">
-                                    <router-link to="/project/waterme"><h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2></router-link>
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card">
+            </router-link>
+            <router-link class="card" to="/project/dvent">
                 <div class="row">
                     <div class="col-sm-1">
                         <ul class="vertical-center">
@@ -91,13 +91,13 @@
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-8">
-                                    <router-link to="/project/dvent"><h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2></router-link>
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </router-link>
         </div>
         <blockquote class="container blockquote text-center">
             <hr>
