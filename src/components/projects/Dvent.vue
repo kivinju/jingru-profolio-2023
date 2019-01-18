@@ -2,113 +2,123 @@
     <div class="container-fluid" id="main" style="border: 0; padding-top: 40px; padding-bottom: 170px">
         <div class="row">
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
-            <h1>Dvent</h1>
+
             <div class="col-md-8">
-                <img src="../../assets/parkin/first.png">
+                <!--<img src="../../assets/parkin/first.png">-->
                 <div>
                     <h2><span>About This Project</span></h2>
-                    <p><strong>Project type:</strong> Individual project</p>
-                    <p><strong>Timeline:</strong> Two Months</p>
-                    <p><strong>Context:</strong> This was my first project inspired by one of my best friends,
-                        a driver with a poor sense of direction.</p>
-                    <p><strong>Problem:</strong> It is difficult for drivers to find suitable parking spaces and
-                        remember their
-                        cars’ locations in a huge parking lot full of cars.</p>
-                    <p><strong>Solution:</strong> A mobile application, by presenting the available parking spots and
-                        parking information, helps drivers find suitable spots before they even show up in the
-                        parking
-                        lot.
-                        It also helps drivers to locate their cars quickly.</p>
+                    <p><strong>Project type:</strong> Coursework Project</p>
+                    <p><strong>My Role:</strong> User research, Persona, Wireframes, and Usability Test</p>
+                    <p><strong>Context:</strong> This was a coursework project for course <i>Intro to User-Centered Design</i>.
+                        I have three team members: Harry, Scott and Yuchen.</p>
+                    <p><strong>Problem:</strong> The College of Computing and Digital Media in DePaul University consists of
+                        three schools: Cinematic Arts, Computing, and Design. CDM graduate students have a difficult time
+                        getting information about their interested activities and staying connected with their fellow classmates.</p>
+                    <p><strong>Solution:</strong> An activities information collection platform for CDM graduate students.</p>
                 </div>
-                <div class="row jingru-box">
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p1.png">
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p2.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p3.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p4.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p5.png"/>
-                    </div>
-                </div>
+                <!--<div class="row jingru-box">-->
+                    <!--<div class="col-md">-->
+                        <!--<img src="../../assets/parkin/p1.png">-->
+                    <!--</div>-->
+                    <!--<div class="col-md">-->
+                        <!--<img src="../../assets/parkin/p2.png"/>-->
+                    <!--</div>-->
+                    <!--<div class="col-md">-->
+                        <!--<img src="../../assets/parkin/p3.png"/>-->
+                    <!--</div>-->
+                    <!--<div class="col-md">-->
+                        <!--<img src="../../assets/parkin/p4.png"/>-->
+                    <!--</div>-->
+                    <!--<div class="col-md">-->
+                        <!--<img src="../../assets/parkin/p5.png"/>-->
+                    <!--</div>-->
+                <!--</div>-->
                 <hr />
 
                 <h1 id="i-r" class="text-center">01 / Research</h1>
                 <div>
                     <h2 id="i-b"><span>BACKGROUND</span></h2>
+                    <!--<div class="row">-->
+                        <!--<div class="col-lg-8">-->
+                            <div>
+                                <p>The College of Computing and Digital Media in DePaul University consists of
+                                    three schools: Cinematic Arts, Computing, and Design. All three schools are relatively
+                                    independent but also highly interacted, sometimes the student of one school may be
+                                    desired to cooperate with students from other schools.</p>
+                                <p>All the students are in different courses, and have classes only two or three days a week.
+                                    Both locals and international students are desired to integrate into this new environment as soon as possible.
+                                   Also, We need to know the latest information about our fields, such as the new technologies, potential positions, salaries, trend, etc.</p>
+                            </div>
+                        <!--</div>-->
+                        <!--<div class="col-lg-4">-->
+                            <!--<img src="../../assets/parkin/background.png">-->
+                        <!--</div>-->
+                    <!--</div>-->
+
+                    <h2 id="i-in"><span>INTERVIEW</span></h2>
+                    <p>Before the interview, our team met to define potential users, discuss what questions needed to be
+                        asked, and what information we required. The questions primarily involved asking the potential users
+                        about current methods of communication and finding CDM graduate social events. After meeting, each
+                        team member found at least two interviewees in shared classes, first floor CDM computer lab, and
+                        individuals met through the Depaul Graduate network, then conducted interviews once information consent
+                        was obtained. The interview consists of asking questions, observing the users’ behavior while walking
+                        through the processes of finding activities, and recording the results. </p>
+
+
+                    <h2 id="i-ui"><span>USER CHALLENGE</span></h2>
+                    <p>Interviews were conducted in person or remotely with CDM Graduate students in order to understand
+                        how they are finding activities and interacting with students. We prepared ten questions, observed
+                        their behaviors and took notes. Through the interviews, some major findings were:</p>
                     <div class="row">
                         <div class="col-lg-8">
-                            <div>
-                                <p>The popularity of cars makes people more willing to drive instead of taking a bus or
-                                    subway.
-                                    Many shopping centers provide their own parking in order to attract more
-                                    shoppers.</p>
-                                <p>Because parking lots lack guideposts, it is difficult for drivers to find parking
-                                    spaces and remember their cars’ locations in huge parking lots full of cars.</p>
+                            <div class="challenge">
+                                <ul>
+                                    <li>All the interviewees want to communicate with other CDM students but they have some
+                                        difficulties in getting information about activities.</li>
+                                    <li>Flyers sometimes are outdated and unclear.</li>
+                                    <li>It is hard to categorize emails and social media efficiently.
+                                        Sometimes users miss important information.</li>
+                                    <li>Social media like OrgSync cannot search events by subject and interest.</li>
+                                    <li>Full-time students with jobs do not have enough time to search for events.</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <img src="../../assets/parkin/background.png">
-                        </div>
-                    </div>
-
-                    <h2 id="i-ca"><span>COMPETITIVE ANALYSIS</span></h2>
-                    <div class="competitive">
-                        <p>During the market research, <strong>I found</strong> that most car navigation products share
-                            the
-                            same four functions: <span>search parking lot</span>, <span>real-time cost</span>,
-                            <span>vacant space,</span> and <span>online payment</span>.</p>
-                        <!--<p>In my design, I consider to keep them as they are very important.</p>-->
-
-                        <div class="row">
-                            <div class="col">
-                                <img src="../../assets/parkin/competitive_analysis_a.png">
-                            </div>
-                            <div class="col">
-                                <img src="../../assets/parkin/competitive_analysis_b.png">
-                            </div>
+                            <img src="../../assets/dvent/user_challenge.jpg">
                         </div>
 
                     </div>
 
-                    <h2 id="i-ui"><span>USER INTERVIEWS</span></h2>
-                    <div class="interview">
-                        <p>I conducted 12 interviews and recorded them as videos.</p>
-                        <p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>
-                        <p>I interviewed her when she was parking in the parking lot of a supermarket. I hoped to
-                            discover her
-                            essential requirements for parking.</p>
 
-                        <img src="../../assets/parkin/user_interviews_a.png" style="margin-bottom:5px;">
-                        <img src="../../assets/parkin/user_interviews_b.png">
-                    </div>
 
                     <h2 id="i-p"><span>PERSONA</span></h2>
                     <div class="persona">
-                        <img src="../../assets/parkin/persona.png">
+                        <img src="../../assets/dvent/persona.png">
+                        <p style="margin-top:30px;">Our team met and compiled the findings using a whiteboard to write out commonalities.</p>
+                        <img src="../../assets/dvent/persona_process_a.png">
                     </div>
 
                     <h2 id="i-i"><span>INSIGHT</span></h2>
-                    <div class="insight">
-                        <ol>
-                            <li>Provide <span>navigation</span> from current location to the
-                                <span>parking lot</span> and
-                                <span>parking space</span>.
-                            </li>
-                            <li>Provide <span>information</span> about the parking lot.</li>
-                            <li>Provide <strong>navigation</strong> to <span>find the car and elevators</span> quickly
-                                in the
-                                parking lot.
-                            </li>
-                            <li>Provide <span>online payment</span> to decrease the time of payment.</li>
-                            <li>Provide <span>real-time reminder</span> about parking time and cost.</li>
-                        </ol>
+                    <p>Based on our previous findings, all potential users faced the same major issue: Access to information
+                        is cumbersome and inconvenient. We found the resolution to be more easily broken down into four major requirements:</p>
+                    <p>For the user</p>
+                    <div class="insight_user">
+                        <ul>
+                            <li>User requires the ability to search for events via subjects or interests.</li>
+                            <li>User wants to get the concise date and location of events.</li>
+                            <li>User needs to schedule events in advance.</li>
+                            <li>User wants to be informed passively on pre-existing plans.</li>
+                        </ul>
+                    </div>
+
+                    <p>For the system</p>
+                    <div class="insight_system">
+                        <ul>
+                            <li><strong>Filter:</strong> Customize event preferences based on user needs.</li>
+                            <li><strong>Event listed:</strong> Display events related to filtered search and brief event information.</li>
+                            <li><strong>Calendar:</strong> Update pre-existing calendar and helps with scheduling.</li>
+                            <li><strong>Notification:</strong> Reminder system for users to avoid missing previously scheduled events.</li>
+                        </ul>
                     </div>
                 </div>
 
@@ -116,105 +126,82 @@
                 <hr>
                 <h1 id="i-cd" class="text-center">02 / Conceptual Design</h1>
                 <div>
-                    <h2 id="i-us"><span>USER SCENARIO</span></h2>
-                    <p>Using my user stories, I created a scenario for each to start ideating around I might solve
-                        for each
-                        of their needs. I then identified key paths of their user journey and mapped out the flow of
-                        user
-                        steps. Some of the flows I explored included: </p>
-                    <ol>
-                        <li>Search for an ideal parking lot and navigate to it.</li>
-                        <li>Choose a parking space.</li>
-                        <li>Record the parking space (If the parking space has been chosen, ignore this step).</li>
-                        <li>Check parking time and cost.</li>
-                        <li>Navigate to the car.</li>
-                        <li>Pay the parking fee online.</li>
-                    </ol>
 
-                    <div class="row">
-                        <div class="col">
-                            <img src="../../assets/parkin/user_scenario.jpg">
-                        </div>
-                        <div class="col">
-                            <img src="../../assets/parkin/user_scenario_detail.jpg">
-                        </div>
-                    </div>
-                </div>
+                    <p style="margin-top:50px;">We created some conceptual designs and two of them were listed here. </p>
+                    <p>Version one:</p>
+                    <img src="../../assets/dvent/Jingru.png">
+                    <P>Version two:</P>
+                    <img src="../../assets/dvent/Yuchen.jpg">
 
-                <h2 id="i-jm"><span>JOURNEY MAP</span></h2>
-                <div class="map">
-                    <p>After the scenario, I “zoomed out” to observe the whole picture. The site map allowed me to
-                        design a fluid and intuitive way of navigating the application's content.</p>
-                    <img src="../../assets/parkin/journey_map.png">
+
+
                 </div>
 
 
                 <hr>
                 <h1 id="i-id" class="text-center">03 / Interaction Design</h1>
+                <h2 id="i-s"><span>SCENARIO</span></h2>
+                <p>Davis is a CDM graduate student seeking a degree in HCI and wants to find an event that relates to his
+                    degree. He opens “Dvent” application and logs in by using his Campus Connect login information.
+                    The application automatically displays shortcuts which relate to his degree. He presses the “UX”
+                    shortcut first, and all the activities that relate to UX are shown below. He is free this weekend,
+                    so he clicks the calendar and chooses the date. He scrolls through the events feed, and finds an event
+                    on UX portfolios that interests him. He clicks the tile in order to get more details of the event.
+                    He’d like to attend the event and clicks the “Add to calendar” button. Then a box pop’s up over the
+                    screen and asks if he wants to receive a notification. He clicks “Yes” button and a reminder will be
+                    sent to him for the upcoming event. Once the dialog box disappears, he notices another event that interests him.
+                    He adds the event to his “watchlist” by clicking the star in the corner of the tile. He can access the
+                    list from the menu later.</p>
+
                 <h2 id="i-w"><span>WIREFRAMES</span></h2>
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div>
-                            <p>For the design process I first started with paper sketching and then gradually moved up,
-                                creating
-                                lo-fi wireframes to hi-fi prototypes.</p>
-                            <p>Initially, I didn't focus on creating pixel perfect designs as they would change after
-                                getting
-                                feedback.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <img src="../../assets/parkin/paper_wireframe.png">
-                    </div>
-                    <img src="../../assets/parkin/wireframe.png" style="height: 100%;">
-                </div>
+                <p>Using the conceptual designs and requirements from the previous project, our team individually created
+                    wireframes and layouts of how we anticipated the application to look. We met to share our work and
+                    discuss advantages and disadvantages of each design. Once we agreed upon which design features we felt
+                    necessary, we compiled our wireframes using Axure.</p>
+                <img src="../../assets/dvent/wireframe_process.png">
+                <!--<img src="../../assets/dvent/wireframe.png">-->
+                <img src="../../assets/dvent/wireframe_origin.png">
+                <p><strong>Ptototype link:</strong> <a href="https://da3zwk.axshare.com/" target="_blank"> https://da3zwk.axshare.com/</a> (STU ID: student PASSWORD: 123)</p>
 
-                <h2 id="i-vd"><span>VISUAL DESIGN</span></h2>
-                <div class="visual">
-                    <p>I created visual pages and a logo that was inspired by colors of traffic signs and traffic lights.
-                        The combination of yellow and black gives people a good reminder. </p>
-                </div>
 
-                <img src="../../assets/parkin/visual_design_a.png" style="margin-bottom:10px;">
-                <img src="../../assets/parkin/visual_design_b.png">
+
 
                 <hr>
                 <h1 id="i-ut" class="text-center">04 / Usability Test</h1>
 
                 <div class="test">
-                    <p>I created a prototype that could communicate the service as it would be as if it was running like
-                        a real application. I chose a potential user, the person who inspired me of this project, to walk through all the
-                        steps.</p>
-                    <p>By observing her complete these tasks I was able to uncover things that were confusing, unclear,
-                        or needed to be changed.</p>
+                    <p>Usability testing was conducted individually after a test plan was created. A scenario and list of
+                        questions and tasks were created to use as a guide for proctoring the test. Participants walked through
+                        the steps to find a specific designated activity in the application.  Once the usability testing was completed,
+                        the team gathered to discuss suggestions, problems, and solutions to difficulties they encountered.</p>
+                    <p>Participants generally did not have any issues with the tasks given. All tests experiences were
+                        described as “easy”, and “good”. Many of the issues were associated with aesthetics over usability.
+                        However, some problems found were:</p>
+                    <ul>
+                        <li>Two of four participants did not like the automatic jump when a search began.</li>
+                        <li>Three participants ignored or did not notice the shortcut search buttons.</li>
+                    </ul>
                 </div>
-                <img src="../../assets/parkin/usability_test.png">
-                <p>During the test, I found the application could be improved in some ways:</p>
-                <ol>
-                    <li>Adjust the font size</li>
-                    <li>Simplify the procedure</li>
-                    <li>Ease navigation back to the main page</li>
-                </ol>
 
                 <h2 id="i-it"><span>ITERATION</span></h2>
-                <p>As the tests validated or disproved many initial hypotheses, I continued to iterate on the designs.
-                    Through each iteration I honed my visual design skills and learned a lot about information architecture,
-                    hierarchy, and typography.</p>
-                <p>This is the iteration page for the “search for a parking lot” page. I increased font size and the size of
-                    pop-up page so the information was displayed clearly and the “Go” button can be clicked easily. Also,
-                    I dimmed the background color to emphasize the main information.</p>
-                <img src="../../assets/parkin/visual_revision.png">
+                <p>Our team redesigned the main page to better address the previous two issues.</p>
+                <p><strong>The shortcut keyword searches were not as intuitive as anticipated</strong>, therefore <span>the word “shortcut” was
+                    added</span> under the keyword search and above the buttons to help guide the user to clicking the shortcuts.
+                    We also figured that <span>making them larger</span> would draw the user to these and make them more defined,
+                    as well as <span>add theme color</span> to the controls area of the main page.</p>
+                <p>Participants mentioned that the <strong>automatic search was annoying</strong>. We <span>removed the automatic search</span> and
+                    <span>allowed user to press ‘enter’</span> on their mobile keyboard in order to initiate the search. Finally,
+                    many discussed the option of having multiple subjects searched simultaneously. We allowed for <span>multiple
+                        shortcuts to be toggled and searched at the same time</span>.</p>
+                <img src="../../assets/dvent/redesign.png">
 
                 <hr />
                 <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
-                <h2 class="takeaways">Using lo-fi prototype instead of hi-fi prototype to do the usability test</h2>
-                <p>After the first project, I realized that lo-fi prototypes (e.g. paper prototypes) are better for usability
-                    testing. Hi-fi prototypes take a long time to build and change. Also, users could be influenced by
-                    colors and fonts so sometimes we can not get the feedback on functions.</p>
-                <h2 class="takeaways">You are not your users</h2>
-                <p>Discovered and framed the problem myself, it was a tempting pitfall to design for myself.
-                    Fortunately, conducting interviews with potential users expanded my understanding of the problem
-                    and gave me many fresh ideas.</p>
+                <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different background.
+                It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
+                Even though we hold some different opinions sometimes, we figured them out very well after each discussions and I learned a lot from them.</p>
+                <p>Although the class is over, I will keep working on this project and try to complete the visual design part by myself.</p>
+                <br /><br /><br /><br /><br />
             </div>
         </div>
     </div>
@@ -231,22 +218,21 @@
                     {
                         'id': 'i-r', 'content': '01 / Research', 'sub': [
                             {'id': 'i-b', 'content': 'BACKGROUND'},
-                            {'id': 'i-ca', 'content': 'COMPETITIVE ANALYSIS'},
-                            {'id': 'i-ui', 'content': 'USER INTERVIEWS'},
+                            {'id': 'i-in', 'content': 'INTERVIEW'},
+                            {'id': 'i-ui', 'content': 'USER CHALLENGE'},
                             {'id': 'i-p', 'content': 'PERSONA'},
                             {'id': 'i-i', 'content': 'INSIGHT'},
                         ]
                     },
                     {
                         'id': 'i-cd', 'content': '02 / Conceptual Design', 'sub': [
-                            {'id': 'i-us', 'content': 'USER SCENARIO'},
-                            {'id': 'i-jm', 'content': 'JOURNEY MAP'},
+
                         ]
                     },
                     {
                         'id': 'i-id', 'content': '03 / Interaction Design', 'sub': [
+                            {'id': 'i-s', 'content': 'SCENARIO'},
                             {'id': 'i-w', 'content': 'WIREFRAMES'},
-                            {'id': 'i-vd', 'content': 'VISUAL DESIGN'},
                         ]
                     },
                     {
@@ -276,7 +262,8 @@
     }
 
     h2 span {
-        background-color: #FDDB4D;
+        /*background-color: #eb4969;*/
+        color:#eb4969;
     }
 
     h2 {
@@ -304,7 +291,7 @@
         line-height: 40px;
     }
 
-    li span {
+    p span {
         color: #ed5a5a;
         font-weight: bold;
     }

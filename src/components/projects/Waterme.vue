@@ -12,7 +12,7 @@
                     <p><strong>Problem:</strong> More and more people care a lot for animals but ignore the companionship of plants.</p>
                     <p><strong>Solution:</strong> A interactive device that intended to awake the consciousness of the
                         people to care for plants.</p>
-                    <p><strong>Youtube:</strong> <a href="https://youtu.be/nShqTc6s6gA" target="_blank">Link</a></p>
+                    <p><strong>Youtube:</strong> <a href="https://youtu.be/nShqTc6s6gA" target="_blank"> Water Me</a></p>
                 </div>
 
                 <hr />
@@ -94,7 +94,7 @@
                 <div class="row">
                     <div class="offset-lg-1 col-lg-6">
                         <div>
-                            <br /><br /><br />
+                            <br /><br />
                             <p>I drew a sketch and envisaged three forms of interaction.</p>
                             <p>Due to limited materials, I finally decided to do the second and the third one.</p>
                         </div>
