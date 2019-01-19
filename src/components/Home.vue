@@ -33,7 +33,7 @@
                                     <h2 class="hline"></h2>
                                 </div>
                                 <div class="col-8">
-                                    <h2>R E A D &nbsp;&nbsp;&nbsp; O N</h2>
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
                                 </div>
                             </div>
                         </div>
