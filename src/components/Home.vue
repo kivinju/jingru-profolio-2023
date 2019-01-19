@@ -2,7 +2,7 @@
     <div id="home">
         <div style="position: relative">
             <video autoplay muted loop id="myVideo">
-                <source src="../assets/home.mp4" type="video/mp4">
+                <source src="home.mp4" type="video/mp4">
             </video>
             <div id="title">
                 <h1>Jingru Zhao</h1>

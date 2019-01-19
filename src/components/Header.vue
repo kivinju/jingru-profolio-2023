@@ -14,7 +14,7 @@
                     <a href="/#projects">Projects</a>
                 </li>
                 <li class="nav-item mr-sm-2">
-                    <a href="#">Resume</a>
+                    <a href="resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </div>
