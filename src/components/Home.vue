@@ -1,7 +1,7 @@
 <template>
     <div id="home">
-        <div style="position: relative">
-            <video autoplay muted loop id="myVideo">
+        <div style="position: relative" v-if="bigScreen">
+            <video autoplay muted loop id="myVideo" width="100%">
                 <source src="home.mp4" type="video/mp4">
             </video>
             <div id="title">
@@ -11,9 +11,9 @@
         </div>
         <Header/>
         <div class="container" id="projects">
-            <router-link class="card" to="/project/parkin">
+            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/parkin">
                 <div class="row">
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
                             <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
@@ -22,10 +22,10 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/parkin_cover.png" width="100%">
+                        <img src="../assets/parkin_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </div>
                     <div class="col-sm-6">
-                        <div class="vertical-center card-description">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Park In</h1>
                             <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
                             <div class="row">
@@ -40,9 +40,9 @@
                     </div>
                 </div>
             </router-link>
-            <router-link class="card" to="/project/waterme">
+            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/waterme">
                 <div class="row">
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
                             <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
@@ -51,10 +51,10 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/waterme_cover.png" width="100%">
+                        <img src="../assets/waterme_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </div>
                     <div class="col-sm-6">
-                        <div class="vertical-center card-description">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Water Me</h1>
                             <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
                             <div class="row">
@@ -69,9 +69,9 @@
                     </div>
                 </div>
             </router-link>
-            <router-link class="card" to="/project/dvent">
+            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/dvent">
                 <div class="row">
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
                             <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
@@ -80,10 +80,10 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/dvent_cover_a.png" width="100%">
+                        <img src="../assets/dvent_cover_a.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </div>
                     <div class="col-sm-6">
-                        <div class="vertical-center card-description">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Dvent</h1>
                             <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
                             <div class="row">
@@ -118,6 +118,30 @@
         components: {
             Header,
             Footer
+        },
+        data () {
+            return {
+                innerWidth: 0
+            }
+        },
+        methods:{
+            onResize: function () {
+                this.innerWidth = window.innerWidth
+            }
+        },
+        computed: {
+            bigScreen: function () {
+                return this.innerWidth >= 768
+            }
+        },
+        mounted() {
+            this.onResize()
+            window.addEventListener('scroll', this.onscroll)
+            window.addEventListener('resize', this.onResize)
+        },
+        destroyed() {
+            window.removeEventListener('scroll', this.onscroll)
+            window.removeEventListener('resize', this.onResize)
         }
     }
 </script>
@@ -171,6 +195,10 @@
     .card {
         margin-top: 30px;
         box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);
+        padding: 5% 0 5% 0;
+    }
+
+    .card-bigscreen {
         padding: 40px 40px 40px 0;
     }
 
@@ -182,9 +210,16 @@
         transform: translateY(-50%);
     }
     .card img {
+        padding: 5% 10% 5% 10%;
+    }
+
+    .card .img-bigscreen {
         padding: 8% 5% 8% 20%;
     }
     .card-description {
+        padding: 0 10% 0 10%;
+    }
+    .card-description-bigscreen {
         padding: 0 20% 0 10%;
     }
 
@@ -220,8 +255,12 @@
     .card a{
         text-decoration: none;
     }
-
     .card p {
+        margin-top: -5px;
+        margin-bottom: 30px;
+    }
+
+    .card-description-bigscreen p {
         margin-top: 30px;
         margin-bottom: 30px;
     }

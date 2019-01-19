@@ -22,7 +22,8 @@
         props: ['indexes'],
         data() {
             return {
-                'highlight': ''
+                'highlight': '',
+                'innerWidth': 0
             }
         },
         methods: {
@@ -46,18 +47,24 @@
               })
               this.highlight = min_highlight
               window.console.log(this.highlight)
+          },
+          onResize: function () {
+              this.innerWidth = window.innerWidth
           }
         },
         computed: {
           show_side: function () {
-              return window.innerWidth >= 768
+              return this.innerWidth >= 768
           }
         },
         mounted() {
+            this.onResize()
             window.addEventListener('scroll', this.onscroll)
+            window.addEventListener('resize', this.onResize)
         },
         destroyed() {
             window.removeEventListener('scroll', this.onscroll)
+            window.removeEventListener('resize', this.onResize)
         }
     }
 </script>
