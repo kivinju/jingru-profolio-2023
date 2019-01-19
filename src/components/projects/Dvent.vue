@@ -4,7 +4,7 @@
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
 
             <div class="col-md-8">
-                <!--<img src="../../assets/parkin/first.png">-->
+                <img src="../../assets/dvent/first_d.png">
                 <div>
                     <h2><span>About This Project</span></h2>
                     <p><strong>Project type:</strong> Coursework Project</p>
