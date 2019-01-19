@@ -43,8 +43,8 @@
                             <div>
                                 <p>The College of Computing and Digital Media in DePaul University consists of
                                     three schools: Cinematic Arts, Computing, and Design. All three schools are relatively
-                                    independent but also highly interacted, sometimes the student of one school may be
-                                    desired to cooperate with students from other schools.</p>
+                                    independent but also highly interactive, sometimes the student of one school may be
+                                    asked to connect with students from other schools.</p>
                                 <p>All the students are in different courses, and have classes only two or three days a week.
                                     Both locals and international students are desired to integrate into this new environment as soon as possible.
                                    Also, We need to know the latest information about our fields, such as the new technologies, potential positions, salaries, trend, etc.</p>
@@ -59,7 +59,7 @@
                     <p>Before the interview, our team met to define potential users, discuss what questions needed to be
                         asked, and what information we required. The questions primarily involved asking the potential users
                         about current methods of communication and finding CDM graduate social events. After meeting, each
-                        team member found at least two interviewees in shared classes, first floor CDM computer lab, and
+                        team member found at least two interviewees in shared classes, on the first floor CDM computer lab, and
                         individuals met through the Depaul Graduate network, then conducted interviews once information consent
                         was obtained. The interview consists of asking questions, observing the users’ behavior while walking
                         through the processes of finding activities, and recording the results. </p>
@@ -146,11 +146,11 @@
                     The application automatically displays shortcuts which relate to his degree. He presses the “UX”
                     shortcut first, and all the activities that relate to UX are shown below. He is free this weekend,
                     so he clicks the calendar and chooses the date. He scrolls through the events feed, and finds an event
-                    on UX portfolios that interests him. He clicks the tile in order to get more details of the event.
-                    He’d like to attend the event and clicks the “Add to calendar” button. Then a box pop’s up over the
+                    on UX portfolios that interests him. He clicks the event in order to get more details.
+                    He’d like to attend the event and clicks the “Add to calendar” button. Then a box pops up over the
                     screen and asks if he wants to receive a notification. He clicks “Yes” button and a reminder will be
                     sent to him for the upcoming event. Once the dialog box disappears, he notices another event that interests him.
-                    He adds the event to his “watchlist” by clicking the star in the corner of the tile. He can access the
+                    He adds the event to his “watchlist” by clicking the star in the corner of the event page. He can access the
                     list from the menu later.</p>
 
                 <h2 id="i-w"><span>WIREFRAMES</span></h2>
@@ -178,7 +178,7 @@
                         described as “easy”, and “good”. Many of the issues were associated with aesthetics over usability.
                         However, some problems found were:</p>
                     <ul>
-                        <li>Two of four participants did not like the automatic jump when a search began.</li>
+                        <li>Two out of four participants did not like the automatic jump when a search began.</li>
                         <li>Three participants ignored or did not notice the shortcut search buttons.</li>
                     </ul>
                 </div>
@@ -197,9 +197,9 @@
 
                 <hr />
                 <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
-                <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different background.
+                <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different backgrounds.
                 It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
-                Even though we hold some different opinions sometimes, we figured them out very well after each discussions and I learned a lot from them.</p>
+                Even though we hold some different opinions sometimes, we figured them out very well after each discussion and I learned a lot from them.</p>
                 <p>Although the class is over, I will keep working on this project and try to complete the visual design part by myself.</p>
                 <br /><br /><br /><br /><br />
             </div>

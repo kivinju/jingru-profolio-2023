@@ -116,9 +116,8 @@
                 <h1 id="i-cd" class="text-center">02 / Conceptual Design</h1>
                 <div>
                     <h2 id="i-us"><span>USER SCENARIO</span></h2>
-                    <p>Using my user stories, I created a scenario for each to start ideating around I might solve
-                        for each
-                        of their needs. I then identified key paths of their user journey and mapped out the flow of
+                    <p>Using my user stories, I created a scenario for each to figure out how I might solve
+                        each of their needs. I then identified key paths of their user journey and mapped out the flow of
                         user
                         steps. Some of the flows I explored included: </p>
                     <ol>
@@ -170,7 +169,7 @@
 
                 <h2 id="i-vd"><span>VISUAL DESIGN</span></h2>
                 <div class="visual">
-                    <p>I created visual pages and a logo that was inspired by colors of traffic signs and traffic lights.
+                    <p>I created visual pages and a logo that were inspired by colors of traffic signs and traffic lights.
                         The combination of yellow and black gives people a good reminder. </p>
                 </div>
 
@@ -181,8 +180,8 @@
                 <h1 id="i-ut" class="text-center">04 / Usability Test</h1>
 
                 <div class="test">
-                    <p>I created a prototype that could communicate the service as it would be as if it was running like
-                        a real application. I chose a potential user, the person who inspired me of this project, to walk through all the
+                    <p>I created a prototype that could communicate the service as if it was running like
+                        a real application. I chose a potential user, the person who inspired me to do this project, to walk through all the
                         steps.</p>
                     <p>By observing her complete these tasks I was able to uncover things that were confusing, unclear,
                         or needed to be changed.</p>
@@ -211,7 +210,7 @@
                     testing. Hi-fi prototypes take a long time to build and change. Also, users could be influenced by
                     colors and fonts so sometimes we can not get the feedback on functions.</p>
                 <h2 class="takeaways">You are not your users</h2>
-                <p>Discovered and framed the problem myself, it was a tempting pitfall to design for myself.
+                <p>Because I discovered and framed the problem myself, it was a tempting pitfall to design for myself.
                     Fortunately, conducting interviews with potential users expanded my understanding of the problem
                     and gave me many fresh ideas.</p>
             </div>

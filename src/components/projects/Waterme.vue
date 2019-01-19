@@ -10,7 +10,7 @@
                     <p><strong>Timeline:</strong> Two Months</p>
                     <p><strong>Context:</strong> This was a project inspired by a phenomenon around my life.</p>
                     <p><strong>Problem:</strong> More and more people care a lot for animals but ignore the companionship of plants.</p>
-                    <p><strong>Solution:</strong> A interactive device that intended to awake the consciousness of the
+                    <p><strong>Solution:</strong> An interactive device that is intended to awake the consciousness of the
                         people to care for plants.</p>
                     <p><strong>Youtube:</strong> <a href="https://youtu.be/nShqTc6s6gA" target="_blank"> Water Me</a></p>
                 </div>
@@ -23,10 +23,10 @@
                     <div class="row">
                         <div class="offset-lg-1 col-lg-6">
                             <div>
-                                <br /><br /><br /><br />
+
                                 <p>More and more people love animals.
                                 Animals play with them and make them happy.
-                                People take good care of dogs, cats...and feed them expensive food.</p>
+                                People take good care of dogs, cats, birds etc. and feed them expensive food.</p>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -42,8 +42,8 @@
                         </div>
                         <div class="col-lg-6">
                             <div>
-                                <br /><br /><br />
-                                <p><strong>However</strong>, flowers consume their whole live to company people and decorate rooms.</p>
+
+                                <p><strong>However</strong>, flowers consume their whole life to accompany people and decorate rooms.</p>
                                 <p>Few people care about them. They forget to water them and ignore their existence.</p>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
 
                     <h2 id="i-ca"><span>USER RESEARCH</span></h2>
                     <div class="competitive">
-                        <p>I conducted a <strong>survey</strong> among my friends and received <strong>121 feedbacks</strong>.</p>
+                        <p>I conducted a <strong>survey</strong> among my friends and received <strong>feedback from 121 people</strong>.</p>
 
                         <img src="../../assets/waterme/survey.png" style="margin-bottom:5px;">
 
@@ -76,7 +76,7 @@
                     </div>
 
                     <h2 id="i-i"><span>INSIGHT</span></h2>
-                    <p>Through this project, I will make an interaction device to make people aware of the companionship
+                    <p>Through this project, I would like to create an interaction device to make people aware of the companionship
                         of plants and awakening people to take good care of them.</p>
 
                 </div>
@@ -94,8 +94,8 @@
                 <div class="row">
                     <div class="offset-lg-1 col-lg-6">
                         <div>
-                            <br /><br />
-                            <p>I drew a sketch and envisaged three forms of interaction.</p>
+
+                            <p>I drew a sketch and contemplated three forms of interaction.</p>
                             <p>Due to limited materials, I finally decided to do the second and the third one.</p>
                         </div>
                     </div>
@@ -117,23 +117,23 @@
                 <h2 id="i-pr"><span>PRODUCTION PROGRESS</span></h2>
                 <img src="../../assets/waterme/production_progress.png" style="margin-bottom:30px;">
                 <p>After setting up the device, I began to connect the circuit and tested LED lights.</p>
-                <p>Meanwhile, Write code to achieve the desired effect.</p>
+                <p>Meanwhile, I wrote code to achieve the desired effect.</p>
                 <img src="../../assets/waterme/production_progress_a.png" style="margin-bottom:30px;">
                 <img src="../../assets/waterme/production_progress_b.png">
 
                 <h2 id="i-in"><span>INTERACTION PROCESS</span></h2>
                 <img src="../../assets/waterme/interaction_process.png" >
                 <ul>
-                    <li>Rotate the watering can counterclockwise until the protoresistor appears. The LED lights start to
+                    <li>By rotating the watering can counterclockwise until the protoresistor appears, the LED lights start to
                     imitate the water flow continuously.</li>
-                    <li>Rotate the watering can clockwise and it will stop watering.</li>
+                    <li>By rotating the watering can clockwise, it will stop watering.</li>
                 </ul>
 
-                <ul>
-                    <li>Rotate the watering can counterclockwise until the protoresistor appears. The LED lights start to
-                        imitate the water flow continuously.</li>
-                    <li>Rotate the watering can clockwise and it will stop watering.</li>
-                </ul>
+                <!--<ul>-->
+                    <!--<li>Rotate the watering can counterclockwise until the protoresistor appears. The LED lights start to-->
+                        <!--imitate the water flow continuously.</li>-->
+                    <!--<li>Rotate the watering can clockwise and it will stop watering.</li>-->
+                <!--</ul>-->
 
                 <p id="i-ot" style="margin-top:30px;"><strong>OTHER INTERACTIONS</strong></p>
                 <div class="row">
@@ -141,7 +141,7 @@
                         <div>
                             <ul>
                                 <li>In order to increase the fun, I designed another interactive form with conductive inks.</li>
-                                <li>When people connect the vase with fingers, the vase will be connected with LED lights.</li>
+                                <li>When people connect the vase with their fingers, the vase will be connected with LED lights.</li>
                             </ul>
                         </div>
                     </div>
@@ -158,9 +158,9 @@
                 <div class="row">
                     <div class="offset-lg-1 col-lg-6">
                         <div>
-                            <br /><br /><br />
-                            <p>In the process of making the device, I encountered a lot of difficulties, such as: LED lights are
-                                too bright to show a good visual result. I increase the resistance to weaken the lignt.
+
+                            <p>In the process of making the device, I encountered a lot of difficulties, such as: LED lights were
+                                too bright to show a good visual result. I increased the resistance to weaken the lignt.
                                 Finally I achieved a desired effect.</p>
                         </div>
                     </div>
