@@ -2,7 +2,7 @@
     <div class="container-fluid" id="main" style="border: 0; padding-top: 40px; padding-bottom: 170px">
         <div class="row">
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
-            <h1>Jot</h1>
+            <h1>TFT</h1>
             <div class="col-md-8">
                 <img src="../../assets/parkin/first.png">
                 <div>
@@ -224,7 +224,7 @@
     import Sidebar from '../util/Sidebar'
 
     export default {
-        name: "TFT",
+        name: "Jot",
         data() {
             return {
                 "indexes": [

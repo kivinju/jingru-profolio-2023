@@ -18,7 +18,7 @@
                             <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <div class="col-sm-5">
@@ -47,7 +47,7 @@
                             <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <div class="col-sm-5">
@@ -76,7 +76,7 @@
                             <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
                             <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
                             <li class="active">&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <!--<li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>-->
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <div class="col-sm-5">
@@ -85,6 +85,35 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Dvent</h1>
+                            <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <div class="col-8">
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </router-link>
+            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/tft">
+                <div class="row">
+                    <div class="col-sm-1" v-if="bigScreen">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5">
+                        <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
+                            <h1>TFT</h1>
                             <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
                             <div class="row">
                                 <div class="col-4">

@@ -7,6 +7,7 @@ import Project from "./components/Project";
 import Waterme from "./components/projects/Waterme";
 import Dvent from "./components/projects/Dvent";
 import Jot from "./components/projects/Jot";
+import TFT from "./components/projects/TFT";
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -30,6 +31,10 @@ const routes = [
             {
                 path: 'jot',
                 component: Jot
+            },
+            {
+                path: 'tft',
+                component: TFT
             },
         ]
     }
