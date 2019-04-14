@@ -80,7 +80,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-5">
-                        <img src="../assets/dvent_cover_a.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                        <img src="../assets/dvent_cover_c.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </div>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
@@ -114,7 +114,7 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>TFT</h1>
-                            <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
+                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and an online correction tool.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>

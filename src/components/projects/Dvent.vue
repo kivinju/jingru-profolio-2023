@@ -4,10 +4,10 @@
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
 
             <div class="col-md-8">
-                <img src="../../assets/dvent/first_d.png">
+                <img src="../../assets/dvent/first_revision.png">
                 <div>
                     <h2><span>About This Project</span></h2>
-                    <p><strong>Project type:</strong> Coursework Project</p>
+                    <p><strong>Project type:</strong> Coursework Team Project</p>
                     <p><strong>My Role:</strong> User research, Persona, Wireframes, and Usability Test</p>
                     <p><strong>Context:</strong> This was a coursework project for course <i>Intro to User-Centered Design</i>.
                         I have three team members: Harry, Scott and Yuchen.</p>
@@ -16,6 +16,20 @@
                         getting information about their interested activities and staying connected with their fellow classmates.</p>
                     <p><strong>Solution:</strong> An activities information collection platform for CDM graduate students.</p>
                 </div>
+
+
+                <div class="row jingru-box">
+                    <div class="col-md">
+                        <img src="../../assets/dvent/p1.png">
+                    </div>
+                    <div class="col-md">
+                        <img src="../../assets/dvent/p2.png"/>
+                    </div>
+                    <div class="col-md">
+                        <img src="../../assets/dvent/p3.png"/>
+                    </div>
+                </div>
+
                 <!--<div class="row jingru-box">-->
                     <!--<div class="col-md">-->
                         <!--<img src="../../assets/parkin/p1.png">-->
@@ -196,11 +210,27 @@
                 <img src="../../assets/dvent/redesign.png">
 
                 <hr />
-                <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
+                <h1 id="i-vd" class="text-center">05 / Visual Design</h1>
+                <p style="margin-top:50px;">I worked on my own for the visual design part after finishing this project.</p>
+
+                <div class="row jingru-box">
+                <div class="col-md">
+                <img src="../../assets/dvent/p1.png">
+                </div>
+                <div class="col-md">
+                <img src="../../assets/dvent/p2.png"/>
+                </div>
+                <div class="col-md">
+                <img src="../../assets/dvent/p3.png"/>
+                </div>
+                </div>
+
+                <hr>
+
+                <h1 id="i-rt" class="text-center">06 / Reflection & Takeaways</h1>
                 <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different backgrounds.
-                It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
-                Even though we hold some different opinions sometimes, we figured them out very well after each discussion and I learned a lot from them.</p>
-                <p>Although the class is over, I will keep working on this project and try to complete the visual design part by myself.</p>
+                    It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
+                    Even though we hold some different opinions sometimes, we figured them out very well after each discussion and I learned a lot from them.</p>
                 <br /><br /><br /><br /><br />
             </div>
         </div>
@@ -241,7 +271,10 @@
                         ]
                     },
                     {
-                        'id': 'i-rt', 'content': '05 / Reflection & Takeaways\n', 'sub': []
+                        'id': 'i-vd', 'content': '05 / Visual Design\n', 'sub': []
+                    },
+                    {
+                        'id': 'i-rt', 'content': '06 / Reflection & Takeaways\n', 'sub': []
                     },
                 ]
             }
