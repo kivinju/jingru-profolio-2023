@@ -297,6 +297,6 @@
         background-color: rgba(0, 0, 0, 0.1);
     }
     #projects {
-        padding: 0 10% 0 10%;
+        /*padding: 0 10% 0 10%;*/
     }
 </style>
