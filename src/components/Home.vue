@@ -21,9 +21,9 @@
                             <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
-                    <div class="col-sm-5">
+                    <router-link class="col-sm-5" to="/project/parkin">
                         <img src="../assets/parkin_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
-                    </div>
+                    </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Park In</h1>
@@ -51,9 +51,9 @@
                             <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
-                    <div class="col-sm-5">
+                    <router-link class="col-sm-5" to="/project/waterme">
                         <img src="../assets/waterme_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
-                    </div>
+                    </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Water Me</h1>
@@ -81,9 +81,9 @@
                             <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
-                    <div class="col-sm-5">
+                    <router-link class="col-sm-5" to="/project/dvent">
                         <img src="../assets/dvent_cover_c.png" width="100%" :class="{'img-bigscreen': bigScreen}">
-                    </div>
+                    </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Dvent</h1>
@@ -111,9 +111,9 @@
                             <li class="active">&nbsp;&nbsp;04&nbsp;&nbsp;</li>
                         </ul>
                     </div>
-                    <div class="col-sm-5">
+                    <router-link class="col-sm-5" to="/project/tft">
                         <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
-                    </div>
+                    </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>TFT</h1>
