@@ -8,6 +8,7 @@ import Waterme from "./components/projects/Waterme";
 import Dvent from "./components/projects/Dvent";
 import Jot from "./components/projects/Jot";
 import TFT from "./components/projects/TFT";
+import Scheduler from "./components/projects/Scheduler";
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -35,6 +36,10 @@ const routes = [
             {
                 path: 'tft',
                 component: TFT
+            },
+            {
+                path: 'scheduler',
+                component: Scheduler
             },
         ]
     }

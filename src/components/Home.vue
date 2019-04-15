@@ -139,10 +139,10 @@
                 <div class="card">
                     <img src="../assets/TFT/first.png" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title font-weight-bold">Card title</h4>
+                        <h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>
                         <div class="text-muted"># Visual Design</div>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>
+                        <router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>
                     </div>
                 </div>
                 <div class="card">
@@ -317,7 +317,7 @@
         margin-bottom: 30px;
     }
     #other_work .text-muted {
-        color: #000000!important;
+        /*color: #000000!important;*/
         margin-top: -0.8em;
         margin-bottom: 0.6em;
         font-size: small;
