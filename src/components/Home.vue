@@ -27,7 +27,7 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Park In</h1>
-                            <div class="text-muted"># Visual Design</div>
+                            <div class="text-muted"># Interaction & Interface Design</div>
                             <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
                             <div class="row">
                                 <div class="col-4">
@@ -57,7 +57,7 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Water Me</h1>
-                            <div class="text-muted"># Visual Design</div>
+                            <div class="text-muted"># Interactive Device</div>
                             <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
                             <div class="row">
                                 <div class="col-4">
@@ -87,7 +87,7 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Dvent</h1>
-                            <div class="text-muted"># Visual Design</div>
+                            <div class="text-muted"># Team Project</div>
                             <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
                             <div class="row">
                                 <div class="col-4">
@@ -117,7 +117,7 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>TFT</h1>
-                            <div class="text-muted"># Visual Design</div>
+                            <div class="text-muted"># Mini Applications</div>
                             <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and an online correction tool.</p>
                             <div class="row">
                                 <div class="col-4">
@@ -134,7 +134,7 @@
         </div>
         <div class="container" id="other_work">
             <hr>
-            <h3>Other Works</h3>
+            <h4>Other Works</h4>
             <div class="card-deck">
                 <div class="card">
                     <img src="../assets/TFT/first.png" class="card-img-top">
