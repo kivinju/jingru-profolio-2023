@@ -11,7 +11,7 @@
         </div>
         <Header/>
         <div class="container" id="projects">
-            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/parkin">
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
@@ -27,20 +27,21 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Park In</h1>
+                            <div class="text-muted"># Visual Design</div>
                             <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <div class="col-8">
+                                <router-link class="col-8 readon" to="/project/parkin">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
-                                </div>
+                                </router-link>
                             </div>
                         </div>
                     </div>
                 </div>
-            </router-link>
-            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/waterme">
+            </div>
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
@@ -56,20 +57,21 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Water Me</h1>
+                            <div class="text-muted"># Visual Design</div>
                             <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <div class="col-8">
+                                <router-link class="col-8 readon" to="/project/waterme">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
-                                </div>
+                                </router-link>
                             </div>
                         </div>
                     </div>
                 </div>
-            </router-link>
-            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/dvent">
+            </div>
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
@@ -85,20 +87,21 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Dvent</h1>
+                            <div class="text-muted"># Visual Design</div>
                             <p>An interactive application that helps DePaul CDM schools' students find their interested events and make more friends.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <div class="col-8">
+                                <router-link class="col-8 readon" to="/project/dvent">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
-                                </div>
+                                </router-link>
                             </div>
                         </div>
                     </div>
                 </div>
-            </router-link>
-            <router-link class="card" :class="{'card-bigscreen': bigScreen}" to="/project/tft">
+            </div>
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
@@ -114,19 +117,44 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>TFT</h1>
+                            <div class="text-muted"># Visual Design</div>
                             <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and an online correction tool.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <div class="col-8">
+                                <router-link class="col-8 readon" to="/project/tft">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
-                                </div>
+                                </router-link>
                             </div>
                         </div>
                     </div>
                 </div>
-            </router-link>
+            </div>
+        </div>
+        <div class="container" id="other_work">
+            <hr>
+            <h3>Other Works</h3>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="../assets/TFT/first.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Card title</h4>
+                        <div class="text-muted"># Visual Design</div>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../assets/TFT/first.png" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title font-weight-bold">Card title</h4>
+                        <div class="text-muted"># Visual Design</div>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
         <blockquote class="container blockquote text-center">
             <hr>
@@ -221,13 +249,13 @@
         padding-bottom: 10%;
     }
 
-    .card {
+    #projects .card {
         margin-top: 30px;
         box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);
         padding: 5% 0 5% 0;
     }
 
-    .card-bigscreen {
+    #projects .card-bigscreen {
         padding: 40px 40px 40px 0;
     }
 
@@ -238,58 +266,63 @@
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-    .card img {
+    #projects .card img {
         padding: 5% 10% 5% 10%;
     }
 
-    .card .img-bigscreen {
+    #projects .card .img-bigscreen {
         padding: 8% 5% 8% 20%;
     }
-    .card-description {
+    #projects .card-description {
         padding: 0 10% 0 10%;
     }
-    .card-description-bigscreen {
+    #projects .card-description-bigscreen {
         padding: 0 20% 0 10%;
     }
 
-    .card ul {
+    #projects .card ul {
         list-style-type: none;
     }
 
-    .card li {
+    #projects .card li {
         padding: 10px 0 10px 0;
         color: rgba(0, 0, 0, 0.1);
         font-size: 1.3em;
     }
 
-    .card li.active {
+    #projects .card li.active {
         color: rgba(0, 0, 0, 0.8);
         /*text-decoration: line-through;*/
     }
 
-    .card h1 {
+    #projects .card h1 {
         font-size: 3em;
         color: black;
 
     }
-    .card h2 {
+    #projects .card h2 {
         font-size: 1em;
         font-weight: bolder;
     }
-    .card .hline {
+    #projects .card .hline {
         text-align:center;
         border-bottom: 2px solid #000;
         margin: 8px 0 20px;
     }
-    .card a{
+    #projects .card a{
         text-decoration: none;
     }
-    .card p {
+    #projects .card p {
         margin-top: -5px;
         margin-bottom: 30px;
     }
-
-    .card-description-bigscreen p {
+    #other_work .text-muted {
+        color: #000000!important;
+        margin-top: -0.8em;
+        margin-bottom: 0.6em;
+        font-size: small;
+    }
+    #projects .card-description-bigscreen p {
         margin-top: 30px;
         margin-bottom: 30px;
     }
@@ -298,5 +331,8 @@
     }
     #projects {
         /*padding: 0 10% 0 10%;*/
+    }
+    .readon {
+        color: #5d60fd;
     }
 </style>
