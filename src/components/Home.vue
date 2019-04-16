@@ -132,30 +132,30 @@
                 </div>
             </div>
         </div>
-        <div class="container" id="other_work">
-            <hr>
-            <h4>Other Works</h4>
-            <div class="card-deck">
-                <div class="card">
-                    <img src="../assets/TFT/first.png" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>
-                        <div class="text-muted"># Flowchart & Mockup & Prototype Design</div>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../assets/TFT/first.png" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title font-weight-bold">Card title</h4>
-                        <div class="text-muted"># Visual Design</div>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!--<div class="container" id="other_work">-->
+            <!--<hr>-->
+            <!--<h4>Other Works</h4>-->
+            <!--<div class="card-deck">-->
+                <!--<div class="card">-->
+                    <!--<img src="../assets/TFT/first.png" class="card-img-top">-->
+                    <!--<div class="card-body">-->
+                        <!--<h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>-->
+                        <!--<div class="text-muted"># Flowchart & Mockup & Prototype Design</div>-->
+                        <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+                        <!--<router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="card">-->
+                    <!--<img src="../assets/TFT/first.png" class="card-img-top">-->
+                    <!--<div class="card-body">-->
+                        <!--<h4 class="card-title font-weight-bold">Card title</h4>-->
+                        <!--<div class="text-muted"># Visual Design</div>-->
+                        <!--<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
+                        <!--<a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <blockquote class="container blockquote text-center">
             <hr>
             <h3 class="mb-0 blockquote-content">"I haven't failed. I've just found 10,000 ways that won't work"</h3>
