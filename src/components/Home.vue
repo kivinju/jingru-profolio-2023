@@ -117,8 +117,8 @@
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>TFT</h1>
-                            <div class="text-muted"># Mini Applications</div>
-                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and an online correction tool.</p>
+                            <div class="text-muted"># Internal Mini Programs</div>
+                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and a speech practice tool.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
@@ -140,7 +140,7 @@
                     <img src="../assets/TFT/first.png" class="card-img-top">
                     <div class="card-body">
                         <h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>
-                        <div class="text-muted"># Visual Design</div>
+                        <div class="text-muted"># Flowchart & Mockup & Prototype Design</div>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>
                     </div>
@@ -320,7 +320,7 @@
         /*color: #000000!important;*/
         margin-top: -0.8em;
         margin-bottom: 0.6em;
-        font-size: small;
+        /*font-size: small;*/
     }
     #projects .card-description-bigscreen p {
         margin-top: 30px;
