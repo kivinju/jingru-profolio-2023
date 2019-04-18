@@ -147,13 +147,13 @@
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/scheduler">
-                        <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                        <img src="../assets/scheduler.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Office Hour Scheduler</h1>
-                            <div class="text-muted"># Flowchart & Mockup & Prototype Design</div>
-                            <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <div class="text-muted"># Flowchart & Mockup & Prototype</div>
+                            <p>An interactive system that allows DePaul University instructors to enter the office hours for a specific quarter.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>

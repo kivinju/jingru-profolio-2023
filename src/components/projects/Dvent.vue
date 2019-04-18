@@ -231,7 +231,7 @@
                 <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different backgrounds.
                     It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
                     Even though we hold some different opinions sometimes, we figured them out very well after each discussion and I learned a lot from them.</p>
-                <br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </div>
         </div>
     </div>

@@ -4,17 +4,14 @@
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
             <div class="col-md-8">
                 <h1>Office Hour Scheduler</h1>
-                <img src="../../assets/TFT/first.png">
+                <img src="../../assets/scheduler/first.png">
                 <div>
                     <h2><span>About This Project</span></h2>
-                    <p><strong>Project type:</strong> Team project</p>
-                    <p><strong>Timeline:</strong> Ten Days</p>
-                    <p><strong>My Role:</strong> Wireframes, UX Design, and UI Design</p>
-                    <p><strong>Context:</strong> Thirsty for Thirty (TFT) is an online language institute.
-                        In this rapid project, I worked with a PM, Wanzi and we needed to design two mini TFT applications to enhance
-                        their study experience:
-                        (1) a <i>feedback card</i> for TFT students after each course and (2) an <i>online correction tool</i>
-                        for them to self-test their English speaking when they studying by themselves.</p>
+                    <p><strong>Project type:</strong> Coursework individual project</p>
+                    <p><strong>Timeline:</strong> One week</p>
+                    <p><strong>My Role:</strong> Flowcharts, Mockup, and Prototype Design</p>
+                    <p><strong>Context:</strong> For this project, I will design an interface that
+                        allows DePaul University instructors to enter their office hours for a specific quarter.</p>
                     <!--<p><strong>Problem:</strong> It is difficult for drivers to find suitable parking spaces and
                         remember their
                         cars’ locations in a huge parking lot full of cars.</p>
@@ -24,80 +21,45 @@
                         lot.
                         It also helps drivers to locate their cars quickly.</p>-->
                 </div>
-                <!--<div class="row jingru-box">
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p1.png">
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p2.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p3.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p4.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/parkin/p5.png"/>
-                    </div>
-                </div>-->
+
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / Feedback Card</h1>
+                <h1 id="i-r" class="text-center">01 / Conceptual Design</h1>
                 <div>
-                    <h2 id="i-b"><span>REQUIREMENTS ANALYSIS</span></h2>
+                    <h2 id="i-b"><span>REQUIREMENTS</span></h2>
                     <div class="requirement">
-                        <p>TFT feedback card was intended to enhance students' study experience after each course.
-                            Before starting the design process, I communicated with the PM and our operation team.
-                            I worked with the PM on our Product Requirement Document (PRD).</p>
+                        <p>The teacher needs to specify the following:</p>
+                        <ul>
+                            <li>The quarter (e.g. Summer/Winter/Fall 2018)</li>
+                            <li>A series of date/time blocks, each with the following:</li>
+                            <ul>
+                                <li>Day of the week</li>
+                                <li>Start time</li>
+                                <li>Stop time</li>
+                                <li>Location; common options include classroom and office</li>
+                            </ul>
+                            <li>The teacher should be able to review, edit and delete any of the time blocks.</li>
+                        </ul>
                     </div>
 
-                    <h2 id="i-ca"><span>FLOWCHART</span></h2>
+                    <h2 id="i-ca"><span>USER SCENARIO</span></h2>
                     <div class="competitive">
-                        <p>After finishing with the Product Requirement Document (PRD), I created a flowchart for the whole process and content of our feedback card mini application.</p>
+                        <ul>
+                            <li>Mary has been a full-time instructor at DePaul for three years.
+                                She will be teaching two courses this quarter. She considers when the courses are offered
+                                and thinks of office hour times that would be convenient to the students.
+                                She decides that Mondays 4 to 5:30 and Wednesdays noon to 1:30 would work well.
+                                She enters those time blocks and then reviews them to see that she has a total of 3 advising hours per week.</li>
+                            <li>Sam is just starting as a part-time instructor at DePaul.
+                                He is teaching his first course Tuesday evenings from 5:45 to 9:00. He decides to hold
+                                his office hours right before and right after class in the classroom. Before class
+                                he can arrive 45 minutes early and after class he can stay 45 minutes for a total of 1.5 hours.
+                                He enters and then checks the time blocks.</li>
+                            <li>Both Mary and Sam have experience using web browsers on a daily basis.
+                                They can easily complete tasks found in common web apps (e.g. online banking, travel tickets).</li>
+                        </ul>
 
-                        <img src="../../assets/TFT/feedback_flowchart_a.png">
 
-                    </div>
-
-                    <h2 id="i-ui"><span>INITIAL DESIGN</span></h2>
-                    <div class="interview">
-                        <p>Based on the wireframe, I created the initial version of design and applied TFT logo as a element in it.</p>
-                        <!--<p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>-->
-                        <!--<p>I interviewed her when she was parking in the parking lot of a supermarket. I hoped to-->
-                            <!--discover her-->
-                            <!--essential requirements for parking.</p>-->
-
-                        <div class="row jingru-box">
-                    <div class="col-md">
-                        <img src="../../assets/TFT/p1.png">
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/TFT/p2.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/TFT/p3.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/TFT/p4.png"/>
-                    </div>
-                    <div class="col-md">
-                        <img src="../../assets/TFT/p5.png"/>
-                    </div>
-                </div>
-
-                    </div>
-
-                    <h2 id="i-p"><span>ITERATION</span></h2>
-                    <div class="persona">
-                        <p>After getting feedback from the PM and our operation team, I iterated my initial design.
-                        There were two important changes:</p>
-                        <ol>
-                            <li>I changed the first page and made it look brighters</li>
-                            <li>I changed three icons in the TabBar from TFT logos to black-white uniformed icons</li>
-                        </ol>
-
-                        <img src="../../assets/TFT/visual_revision.png">
                     </div>
 
 
@@ -105,67 +67,68 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / Online Correction Tool</h1>
+                <h1 id="i-cd" class="text-center">02 / Interaction Design</h1>
                 <div>
 
-                    <h2 id="i-ba"><span>BACKGROUND</span></h2>
+                    <h2 id="i-ba"><span>FLOWCHART</span></h2>
                     <div class="analysis">
-                        <p>TFT Online Correction Tool was intended to help students to self-test their English speaking when they studying by themselves.
-                            Before starting the design process, I communicated with the PM and our operation team.
-                            I worked with the PM on our Product Requirement Document (PRD).</p>
+                        <p>After fully understanding the requirements and the scenarios, I created a flowchart
+                            for the whole process of my future design by using Axure.</p>
+
+                        <img src="../../assets/scheduler/scheduler_flowchart.png">
                     </div>
 
                     <h2 id="i-us"><span>WIREFRAMES</span></h2>
-                    <p>Due to the time limited, I created wireframes directly after understanding our demands:</p>
-                    <ol>
-                        <li>TOEFL Speaking - including TPO topics</li>
-                        <li>Recording function</li>
-                        <li>A Player</li>
-                        <li>Evaluation function - providing score for each recording</li>
-                        <li>Review and Retest function</li>
-                        <li>Sharing and Inviting Friends function</li>
-                    </ol>
+                    <p>Based on the flowchart, I created wireframes for both full-time and part-time instructors by using Adobe XD.</p>
+                            <img src="../../assets/scheduler/screenshot.png">
+                    <br /><br /><br />
 
-                            <img src="../../assets/TFT/wireframes.jpg">
+                    <p>For the <strong>full_time</strong> instructor:</p>
+                        <img src="../../assets/scheduler/full_time.png">
+                    <br /><br />
+                    <p>Wireframes link: <a href="https://m4gy33.axshare.com/#c=2" target="_blank"> https://m4gy33.axshare.com/#c=2</a></p>
+
+                    <br /><br />
+
+                    <p>For the <strong>part_time</strong> instructor:</p>
+                    <img src="../../assets/scheduler/part_time.png">
+                    <br /><br />
+                    <p>Wireframes link: <a href="https://tzdm22.axshare.com/#c=2" target="_blank"> https://tzdm22.axshare.com/#c=2</a></p>
+
+
+
 
                 </div>
 
                 <h2 id="i-jm"><span>VISUAL DESIGN</span></h2>
                 <div class="map">
-                    <p>I did visual design for our wireframes by using TFT logo main colors.</p>
-
-                    <div class="row jingru-box">
-                        <div class="col-md">
-                            <img src="../../assets/TFT/p6.png">
-                        </div>
-                        <div class="col-md">
-                            <img src="../../assets/TFT/p7.png"/>
-                        </div>
-                        <div class="col-md">
-                            <img src="../../assets/TFT/p8.png"/>
-                        </div>
-                        <div class="col-md">
-                            <img src="../../assets/TFT/p9.png"/>
-                        </div>
-                        <div class="col-md">
-                            <img src="../../assets/TFT/p10.png"/>
-                        </div>
-                    </div>
+                    <p>The main colour I used for my visual design is the DePaul representative blue color. I created this design by using Adobe XD.</p>
+                    <img src="../../assets/scheduler/visual.png">
 
                 </div>
+
+                <h2 id="i-pr"><span>PROTOTYPE</span></h2>
+                <p>I created this prototype by using Adobe XD.</p>
+                <p>(add video)</p>
 
 
                 <hr />
                 <h1 id="i-rt" class="text-center">03 / Reflection & Takeaways</h1>
-                <p style="margin-top:50px;">Due to the time limited for this project, I didn't have too much time
-                    to complete each step in user-centered design process in detail for this project, such as doing user research
-                among our target users. However, I communicated with my colleagues who were responsible for the users in our operation team.
-                It helped me a lot to get information about our users and understand what we need to provide for them.</p>
-                <!--<h2 class="takeaways">You are not your users</h2>
-                <p>Discovered and framed the problem myself, it was a tempting pitfall to design for myself.
-                    Fortunately, conducting interviews with potential users expanded my understanding of the problem
-                    and gave me many fresh ideas.</p>-->
-                <br /><br /><br /><br /><br /><br /><br />
+
+                <h2 class="takeaways">Drawing a flowchart is an important step</h2>
+                <p>While designing Office Hours Scheduler, I needed to understand the whole process of using my future
+                    product before beginning the design process. In order to design wireframes and interfaces for the product,
+                    I created a flowchart, which helped me to understand how users will interact with the system;
+                    I needed to know the steps of their usage. By gaining this understanding, I was able to fulfill the
+                    demands of the scenarios and requirements.</p>
+
+                <h2 class="takeaways">Adobe XD is a very useful tool for wireframes and prototypes</h2>
+                <p>In order to design Office Hours Scheduler, I had the opportunity to learn how to use Adobe XD for the
+                    first time. After fully gaining competence in the software, I was able to use it for the design of
+                    my wireframes and prototypes of the project. Not only was it easy to learn, but it was also a
+                    user-friendly tool which I highly recommend to UX designers.</p>
+
+                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             </div>
         </div>
     </div>
@@ -176,22 +139,23 @@
 
     export default {
         name: "Scheduler",
-        data() {
+        data: function () {
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / Feedback Card', 'sub': [
-                            {'id': 'i-b', 'content': 'REQUIREMENTS ANALYSIS'},
-                            {'id': 'i-ca', 'content': 'FLOWCHART'},
-                            {'id': 'i-ui', 'content': 'INITIAL DESIGN'},
-                            {'id': 'i-p', 'content': 'ITERATION'},
+                        'id': 'i-r', 'content': '01 / Conceptual Design', 'sub': [
+                            {'id': 'i-b', 'content': 'REQUIREMENTS'},
+                            {'id': 'i-ca', 'content': 'USER SCENARIO'},
+                            /*{'id': 'i-ui', 'content': 'INITIAL DESIGN'},
+                            {'id': 'i-p', 'content': 'ITERATION'},*/
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / Online Correction Tool', 'sub': [
-                            {'id': 'i-ba', 'content': 'BACKGROUND'},
+                        'id': 'i-cd', 'content': '02 / Interaction Design', 'sub': [
+                            {'id': 'i-ba', 'content': 'FLOWCHART'},
                             {'id': 'i-us', 'content': 'WIREFRAMES'},
                             {'id': 'i-jm', 'content': 'VISUAL DESIGN'},
+                            {'id': 'i-pr', 'content': 'PROTOTYPE'},
                         ]
                     },
 
@@ -217,7 +181,7 @@
     }
 
     h2 span {
-        background-color: #a1c4fd;
+        background-color: #eb9058;
     }
 
     h2 {
@@ -257,5 +221,6 @@
 
     .takeaways {
         margin-bottom: 10px;
+        color: #3c3c3c;
     }
 </style>
