@@ -109,7 +109,10 @@
 
                 <h2 id="i-pr"><span>PROTOTYPE</span></h2>
                 <p>I created this prototype by using Adobe XD.</p>
-                <p>(add video)</p>
+
+                <video autoplay muted loop id="myVideo" width="100%">
+                    <source src="/scheduler.mp4" type="video/mp4">
+                </video>
 
 
                 <hr />
