@@ -4,7 +4,7 @@
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
 
             <div class="col-md-8">
-                <img src="../../assets/dvent/first_revision.png">
+                <img src="../../assets/dvent/firstpage.png">
                 <div>
                     <h2><span>About This Project</span></h2>
                     <p><strong>Project type:</strong> Coursework Team Project</p>
@@ -20,13 +20,13 @@
 
                 <div class="row jingru-box">
                     <div class="col-md">
-                        <img src="../../assets/dvent/p1.png">
+                        <img src="../../assets/dvent/p_a.png">
                     </div>
                     <div class="col-md">
-                        <img src="../../assets/dvent/p2.png"/>
+                        <img src="../../assets/dvent/p_b.png"/>
                     </div>
                     <div class="col-md">
-                        <img src="../../assets/dvent/p3.png"/>
+                        <img src="../../assets/dvent/p_c.png"/>
                     </div>
                 </div>
 
@@ -175,7 +175,7 @@
                 <img src="../../assets/dvent/wireframe_process.png">
                 <!--<img src="../../assets/dvent/wireframe.png">-->
                 <img src="../../assets/dvent/wireframe_origin.png">
-                <p><strong>Ptototype link:</strong> <a href="https://da3zwk.axshare.com/" target="_blank"> https://da3zwk.axshare.com/</a> (STU ID: student PASSWORD: 123)</p>
+                <p><strong>Prototype link:</strong> <a href="https://da3zwk.axshare.com/" target="_blank"> https://da3zwk.axshare.com/</a> (STU ID: student PASSWORD: 123)</p>
 
 
 
@@ -199,29 +199,30 @@
 
                 <h2 id="i-it"><span>ITERATION</span></h2>
                 <p>Our team redesigned the main page to better address the previous two issues.</p>
-                <p><strong>The shortcut keyword searches were not as intuitive as anticipated</strong>, therefore <span>the word “shortcut” was
-                    added</span> under the keyword search and above the buttons to help guide the user to clicking the shortcuts.
+                <p><strong>The category searches were not as intuitive as anticipated</strong>, therefore <span>the word “Category” was
+                    added</span> under the keyword search and above the buttons to help guide the user to clicking the categories.
                     We also figured that <span>making them larger</span> would draw the user to these and make them more defined,
                     as well as <span>add theme color</span> to the controls area of the main page.</p>
                 <p>Participants mentioned that the <strong>automatic search was annoying</strong>. We <span>removed the automatic search</span> and
                     <span>allowed user to press ‘enter’</span> on their mobile keyboard in order to initiate the search. Finally,
                     many discussed the option of having multiple subjects searched simultaneously. We allowed for <span>multiple
                         shortcuts to be toggled and searched at the same time</span>.</p>
-                <img src="../../assets/dvent/redesign.png">
+                <img src="../../assets/dvent/iteration_category.png">
 
                 <hr />
                 <h1 id="i-vd" class="text-center">05 / Visual Design</h1>
-                <p style="margin-top:50px;">I worked on my own for the visual design part after finishing this project.</p>
+                <p style="margin-top:50px;">I worked on my own for the visual design part after finishing this project.
+                    The colors of the visual pages were inspired by the logo of DePaul University.</p>
 
                 <div class="row jingru-box">
                 <div class="col-md">
-                <img src="../../assets/dvent/p1.png">
+                <img src="../../assets/dvent/p_a.png">
                 </div>
                 <div class="col-md">
-                <img src="../../assets/dvent/p2.png"/>
+                <img src="../../assets/dvent/p_b.png"/>
                 </div>
                 <div class="col-md">
-                <img src="../../assets/dvent/p3.png"/>
+                <img src="../../assets/dvent/p_c.png"/>
                 </div>
                 </div>
 
