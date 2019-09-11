@@ -9,7 +9,7 @@ import Dvent from "./components/projects/Dvent";
 import Jot from "./components/projects/Jot";
 import TFT from "./components/projects/TFT";
 import Scheduler from "./components/projects/Scheduler";
-import Vts from "./components/projects/Vts";
+import Vts from "./components/projects/VTS";
 import Builder from "./components/projects/Builder";
 
 Vue.config.productionTip = false
