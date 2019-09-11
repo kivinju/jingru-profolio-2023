@@ -166,31 +166,93 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container" id="other_work">
-            <hr>
-            <h4>Other Works</h4>
-            <div class="card-deck">
-                <div class="card">
-                    <img src="../assets/TFT/first.png" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>
-                        <div class="text-muted"># Flowchart & Mockup & Prototype Design</div>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
+                <div class="row">
+                    <div class="col-sm-1" v-if="bigScreen">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <router-link class="col-sm-5" to="/project/vts">
+                        <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    </router-link>
+                    <div class="col-sm-6">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
+                            <h1>VTS</h1>
+                            <div class="text-muted"># Internal Mini Programs</div>
+                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and a speech practice tool.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <router-link class="col-8 readon" to="/project/tft">
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="../assets/TFT/first.png" class="card-img-top">
-                    <div class="card-body">
-                        <h4 class="card-title font-weight-bold">Card title</h4>
-                        <div class="text-muted"># Visual Design</div>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+            <div class="card" :class="{'card-bigscreen': bigScreen}">
+                <div class="row">
+                    <div class="col-sm-1" v-if="bigScreen">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <router-link class="col-sm-5" to="/project/builder">
+                        <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    </router-link>
+                    <div class="col-sm-6">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
+                            <h1>Builder</h1>
+                            <div class="text-muted"># Internal Mini Programs</div>
+                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and a speech practice tool.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <router-link class="col-8 readon" to="/project/tft">
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
+                                </router-link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--<div class="container" id="other_work">-->
+            <!--<hr>-->
+            <!--<h4>Other Works</h4>-->
+            <!--<div class="card-deck">-->
+                <!--<div class="card">-->
+                    <!--<img src="../assets/TFT/first.png" class="card-img-top">-->
+                    <!--<div class="card-body">-->
+                        <!--<h4 class="card-title font-weight-bold">Office Hour Scheduler</h4>-->
+                        <!--<div class="text-muted"># Flowchart & Mockup & Prototype Design</div>-->
+                        <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
+                        <!--<router-link to="/project/scheduler" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></router-link>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="card">-->
+                    <!--<img src="../assets/TFT/first.png" class="card-img-top">-->
+                    <!--<div class="card-body">-->
+                        <!--<h4 class="card-title font-weight-bold">Card title</h4>-->
+                        <!--<div class="text-muted"># Visual Design</div>-->
+                        <!--<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>-->
+                        <!--<a href="#" class="readon">READ ON <i class="fas fa-long-arrow-alt-right"></i></a>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <blockquote class="container blockquote text-center">
             <hr>
             <h3 class="mb-0 blockquote-content">"I haven't failed. I've just found 10,000 ways that won't work"</h3>

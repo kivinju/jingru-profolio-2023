@@ -9,6 +9,8 @@ import Dvent from "./components/projects/Dvent";
 import Jot from "./components/projects/Jot";
 import TFT from "./components/projects/TFT";
 import Scheduler from "./components/projects/Scheduler";
+import Vts from "./components/projects/Vts";
+import Builder from "./components/projects/Builder";
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -40,6 +42,14 @@ const routes = [
             {
                 path: 'scheduler',
                 component: Scheduler
+            },
+            {
+                path: 'vts',
+                component: Vts
+            },
+            {
+                path: 'builder',
+                component: Builder
             },
         ]
     }
