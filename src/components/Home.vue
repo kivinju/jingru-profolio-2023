@@ -209,18 +209,18 @@
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/builder">
-                        <img src="../assets/TFT.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                        <img src="../assets/builder.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
                             <h1>Builder</h1>
-                            <div class="text-muted"># Internal Mini Programs</div>
-                            <p>An interactive application that intends to enhance TFT students' english study experience by providing a feedback card after each course and a speech practice tool.</p>
+                            <div class="text-muted"># Internship project @TuSimple, Inc.</div>
+                            <p>An internal web-based tool that integrates different modules to generate autonomous driving software.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <router-link class="col-8 readon" to="/project/tft">
+                                <router-link class="col-8 readon" to="/project/builder">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
                                 </router-link>
                             </div>

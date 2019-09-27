@@ -38,9 +38,9 @@
                 </div>
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / Research</h1>
+                <h1 id="i-r" class="text-center">01 / RESEARCH</h1>
                 <div>
-                    <h2 id="i-b"><span>BACKGROUND</span></h2>
+                    <h2 id="i-b"><span>Background</span></h2>
                     <div class="row">
                         <div class="col-lg-8">
                             <div>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
 
-                    <h2 id="i-ca"><span>COMPETITIVE ANALYSIS</span></h2>
+                    <h2 id="i-ca"><span>Competitive Analysis</span></h2>
                     <div class="competitive">
                         <p>During the market research, <strong>I found</strong> that most car navigation products share
                             the
@@ -76,7 +76,7 @@
 
                     </div>
 
-                    <h2 id="i-ui"><span>USER INTERVIEWS</span></h2>
+                    <h2 id="i-ui"><span>User Interviews</span></h2>
                     <div class="interview">
                         <p>I conducted 12 interviews and recorded them as videos.</p>
                         <p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>
@@ -88,12 +88,12 @@
                         <img src="../../assets/parkin/user_interviews_b.png">
                     </div>
 
-                    <h2 id="i-p"><span>PERSONA</span></h2>
+                    <h2 id="i-p"><span>Persona</span></h2>
                     <div class="persona">
                         <img src="../../assets/parkin/persona.png">
                     </div>
 
-                    <h2 id="i-i"><span>INSIGHT</span></h2>
+                    <h2 id="i-i"><span>Insight</span></h2>
                     <div class="insight">
                         <ol>
                             <li>Provide <span>navigation</span> from current location to the
@@ -113,9 +113,9 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / Conceptual Design</h1>
+                <h1 id="i-cd" class="text-center">02 / CONCEPTUAL DESIGN</h1>
                 <div>
-                    <h2 id="i-us"><span>USER SCENARIO</span></h2>
+                    <h2 id="i-us"><span>User Scenario</span></h2>
                     <p>Using my user stories, I created a scenario for each to figure out how I might solve
                         each of their needs. I then identified key paths of their user journey and mapped out the flow of
                         user
@@ -139,7 +139,7 @@
                     </div>
                 </div>
 
-                <h2 id="i-jm"><span>JOURNEY MAP</span></h2>
+                <h2 id="i-jm"><span>Journey Map</span></h2>
                 <div class="map">
                     <p>After the scenario, I “zoomed out” to observe the whole picture. The site map allowed me to
                         design a fluid and intuitive way of navigating the application's content.</p>
@@ -148,8 +148,8 @@
 
 
                 <hr>
-                <h1 id="i-id" class="text-center">03 / Interaction Design</h1>
-                <h2 id="i-w"><span>WIREFRAMES</span></h2>
+                <h1 id="i-id" class="text-center">03 / INTERACTION DESIGN</h1>
+                <h2 id="i-w"><span>Wireframes</span></h2>
                 <div class="row">
                     <div class="col-lg-8">
                         <div>
@@ -167,7 +167,7 @@
                     <img src="../../assets/parkin/wireframe.png" style="height: 100%;">
                 </div>
 
-                <h2 id="i-vd"><span>VISUAL DESIGN</span></h2>
+                <h2 id="i-vd"><span>Visual Design</span></h2>
                 <div class="visual">
                     <p>I created visual pages and a logo that were inspired by colors of traffic signs and traffic lights.
                         The combination of yellow and black gives people a good reminder. </p>
@@ -177,7 +177,7 @@
                 <img src="../../assets/parkin/visual_design_b.png">
 
                 <hr>
-                <h1 id="i-ut" class="text-center">04 / Usability Test</h1>
+                <h1 id="i-ut" class="text-center">04 / USABILITY TEST</h1>
 
                 <div class="test">
                     <p>I created a prototype that could communicate the service as if it was running like
@@ -194,7 +194,7 @@
                     <li>Ease navigation back to the main page</li>
                 </ol>
 
-                <h2 id="i-it"><span>ITERATION</span></h2>
+                <h2 id="i-it"><span>Iteration</span></h2>
                 <p>As the tests validated or disproved many initial hypotheses, I continued to iterate on the designs.
                     Through each iteration I honed my visual design skills and learned a lot about information architecture,
                     hierarchy, and typography.</p>
@@ -204,7 +204,7 @@
                 <img src="../../assets/parkin/visual_revision.png">
 
                 <hr />
-                <h1 id="i-rt" class="text-center">05 / Reflection & Takeaways</h1>
+                <h1 id="i-rt" class="text-center">05 / REFLECTION & TAKEAWAYS</h1>
                 <h2 class="takeaways">Using lo-fi prototype instead of hi-fi prototype to do the usability test</h2>
                 <p>After the first project, I realized that lo-fi prototypes (e.g. paper prototypes) are better for usability
                     testing. Hi-fi prototypes take a long time to build and change. Also, users could be influenced by
@@ -227,33 +227,33 @@
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / Research', 'sub': [
-                            {'id': 'i-b', 'content': 'BACKGROUND'},
-                            {'id': 'i-ca', 'content': 'COMPETITIVE ANALYSIS'},
-                            {'id': 'i-ui', 'content': 'USER INTERVIEWS'},
-                            {'id': 'i-p', 'content': 'PERSONA'},
-                            {'id': 'i-i', 'content': 'INSIGHT'},
+                        'id': 'i-r', 'content': '01 / RESEARCH', 'sub': [
+                            {'id': 'i-b', 'content': 'Background'},
+                            {'id': 'i-ca', 'content': 'Competitive Analysis'},
+                            {'id': 'i-ui', 'content': 'User Interviews'},
+                            {'id': 'i-p', 'content': 'Persona'},
+                            {'id': 'i-i', 'content': 'Insight'},
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / Conceptual Design', 'sub': [
-                            {'id': 'i-us', 'content': 'USER SCENARIO'},
-                            {'id': 'i-jm', 'content': 'JOURNEY MAP'},
+                        'id': 'i-cd', 'content': '02 / CONCEPTUAL DESIGN', 'sub': [
+                            {'id': 'i-us', 'content': 'User Scenario'},
+                            {'id': 'i-jm', 'content': 'Journey Map'},
                         ]
                     },
                     {
-                        'id': 'i-id', 'content': '03 / Interaction Design', 'sub': [
-                            {'id': 'i-w', 'content': 'WIREFRAMES'},
-                            {'id': 'i-vd', 'content': 'VISUAL DESIGN'},
+                        'id': 'i-id', 'content': '03 / INTERACTION DESIGN', 'sub': [
+                            {'id': 'i-w', 'content': 'Wireframes'},
+                            {'id': 'i-vd', 'content': 'Visual Design'},
                         ]
                     },
                     {
-                        'id': 'i-ut', 'content': '04 / Usability Test', 'sub': [
-                            {'id': 'i-it', 'content': 'ITERATION'}
+                        'id': 'i-ut', 'content': '04 / USABILITY TEST', 'sub': [
+                            {'id': 'i-it', 'content': 'Iteration'}
                         ]
                     },
                     {
-                        'id': 'i-rt', 'content': '05 / Reflection & Takeaways\n', 'sub': []
+                        'id': 'i-rt', 'content': '05 / REFLECTION & TAKEAWAYS\n', 'sub': []
                     },
                 ]
             }

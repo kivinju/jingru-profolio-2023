@@ -49,9 +49,9 @@
                 <!--</div>-->
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / Research</h1>
+                <h1 id="i-r" class="text-center">01 / RESEARCH</h1>
                 <div>
-                    <h2 id="i-b"><span>BACKGROUND</span></h2>
+                    <h2 id="i-b"><span>Background</span></h2>
                     <!--<div class="row">-->
                         <!--<div class="col-lg-8">-->
                             <div>
@@ -69,7 +69,7 @@
                         <!--</div>-->
                     <!--</div>-->
 
-                    <h2 id="i-in"><span>INTERVIEW</span></h2>
+                    <h2 id="i-in"><span>Interview</span></h2>
                     <p>Before the interview, our team met to define potential users, discuss what questions needed to be
                         asked, and what information we required. The questions primarily involved asking the potential users
                         about current methods of communication and finding CDM graduate social events. After meeting, each
@@ -79,7 +79,7 @@
                         through the processes of finding activities, and recording the results. </p>
 
 
-                    <h2 id="i-ui"><span>USER CHALLENGE</span></h2>
+                    <h2 id="i-ui"><span>User Challenge</span></h2>
                     <p>Interviews were conducted in person or remotely with CDM Graduate students in order to understand
                         how they are finding activities and interacting with students. We prepared ten questions, observed
                         their behaviors and took notes. Through the interviews, some major findings were:</p>
@@ -105,14 +105,14 @@
 
 
 
-                    <h2 id="i-p"><span>PERSONA</span></h2>
+                    <h2 id="i-p"><span>Persona</span></h2>
                     <div class="persona">
                         <img src="../../assets/dvent/persona.png">
                         <p style="margin-top:30px;">Our team met and compiled the findings using a whiteboard to write out commonalities.</p>
                         <img src="../../assets/dvent/persona_process_a.png">
                     </div>
 
-                    <h2 id="i-i"><span>INSIGHT</span></h2>
+                    <h2 id="i-i"><span>Insight</span></h2>
                     <p>Based on our previous findings, all potential users faced the same major issue: Access to information
                         is cumbersome and inconvenient. We found the resolution to be more easily broken down into four major requirements:</p>
                     <p>For the user</p>
@@ -138,7 +138,7 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / Conceptual Design</h1>
+                <h1 id="i-cd" class="text-center">02 / CONCEPTUAL DESIGN</h1>
                 <div>
 
                     <p style="margin-top:50px;">We created some conceptual designs and two of them were listed here. </p>
@@ -153,8 +153,8 @@
 
 
                 <hr>
-                <h1 id="i-id" class="text-center">03 / Interaction Design</h1>
-                <h2 id="i-s"><span>SCENARIO</span></h2>
+                <h1 id="i-id" class="text-center">03 / INTERACTION DESIGN</h1>
+                <h2 id="i-s"><span>Scenario</span></h2>
                 <p>Davis is a CDM graduate student seeking a degree in HCI and wants to find an event that relates to his
                     degree. He opens “Dvent” application and logs in by using his Campus Connect login information.
                     The application automatically displays shortcuts which relate to his degree. He presses the “UX”
@@ -167,7 +167,7 @@
                     He adds the event to his “watchlist” by clicking the star in the corner of the event page. He can access the
                     list from the menu later.</p>
 
-                <h2 id="i-w"><span>WIREFRAMES</span></h2>
+                <h2 id="i-w"><span>Wireframes</span></h2>
                 <p>Using the conceptual designs and requirements from the previous project, our team individually created
                     wireframes and layouts of how we anticipated the application to look. We met to share our work and
                     discuss advantages and disadvantages of each design. Once we agreed upon which design features we felt
@@ -181,7 +181,7 @@
 
 
                 <hr>
-                <h1 id="i-ut" class="text-center">04 / Usability Test</h1>
+                <h1 id="i-ut" class="text-center">04 / USABILITY TEST</h1>
 
                 <div class="test">
                     <p>Usability testing was conducted individually after a test plan was created. A scenario and list of
@@ -197,7 +197,7 @@
                     </ul>
                 </div>
 
-                <h2 id="i-it"><span>ITERATION</span></h2>
+                <h2 id="i-it"><span>Iteration</span></h2>
                 <p>Our team redesigned the main page to better address the previous two issues.</p>
                 <p><strong>The category searches were not as intuitive as anticipated</strong>, therefore <span>the word “Category” was
                     added</span> under the keyword search and above the buttons to help guide the user to clicking the categories.
@@ -210,7 +210,7 @@
                 <img src="../../assets/dvent/iteration_category.png">
 
                 <hr />
-                <h1 id="i-vd" class="text-center">05 / Visual Design</h1>
+                <h1 id="i-vd" class="text-center">05 / VISUAL DESIGN</h1>
                 <p style="margin-top:50px;">I worked on my own for the visual design part after finishing this project.
                     The colors of the visual pages were inspired by the logo of DePaul University.</p>
 
@@ -228,7 +228,7 @@
 
                 <hr>
 
-                <h1 id="i-rt" class="text-center">06 / Reflection & Takeaways</h1>
+                <h1 id="i-rt" class="text-center">06 / REFLECTION & TAKEAWAYS</h1>
                 <p style="margin-top:50px;">This was my first team project and I was really excited working with three fellow classmates with different backgrounds.
                     It is a valuable opportunity for me to consider what position is suitable for me in an UX project.
                     Even though we hold some different opinions sometimes, we figured them out very well after each discussion and I learned a lot from them.</p>
@@ -247,35 +247,35 @@
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / Research', 'sub': [
-                            {'id': 'i-b', 'content': 'BACKGROUND'},
-                            {'id': 'i-in', 'content': 'INTERVIEW'},
-                            {'id': 'i-ui', 'content': 'USER CHALLENGE'},
-                            {'id': 'i-p', 'content': 'PERSONA'},
-                            {'id': 'i-i', 'content': 'INSIGHT'},
+                        'id': 'i-r', 'content': '01 / RESEARCH', 'sub': [
+                            {'id': 'i-b', 'content': 'Background'},
+                            {'id': 'i-in', 'content': 'Interview'},
+                            {'id': 'i-ui', 'content': 'User Challenge'},
+                            {'id': 'i-p', 'content': 'Persona'},
+                            {'id': 'i-i', 'content': 'Insight'},
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / Conceptual Design', 'sub': [
+                        'id': 'i-cd', 'content': '02 / CONCEPTUAL DESIGN', 'sub': [
 
                         ]
                     },
                     {
-                        'id': 'i-id', 'content': '03 / Interaction Design', 'sub': [
-                            {'id': 'i-s', 'content': 'SCENARIO'},
-                            {'id': 'i-w', 'content': 'WIREFRAMES'},
+                        'id': 'i-id', 'content': '03 / INTERACTION DESIGN', 'sub': [
+                            {'id': 'i-s', 'content': 'Scenario'},
+                            {'id': 'i-w', 'content': 'Wireframes'},
                         ]
                     },
                     {
-                        'id': 'i-ut', 'content': '04 / Usability Test', 'sub': [
-                            {'id': 'i-it', 'content': 'ITERATION'}
+                        'id': 'i-ut', 'content': '04 / USABILITY TEST', 'sub': [
+                            {'id': 'i-it', 'content': 'Iteration'}
                         ]
                     },
                     {
-                        'id': 'i-vd', 'content': '05 / Visual Design\n', 'sub': []
+                        'id': 'i-vd', 'content': '05 / VISUAL DESIGN', 'sub': []
                     },
                     {
-                        'id': 'i-rt', 'content': '06 / Reflection & Takeaways\n', 'sub': []
+                        'id': 'i-rt', 'content': '06 / REFLECTION & TAKEAWAYS\n', 'sub': []
                     },
                 ]
             }
