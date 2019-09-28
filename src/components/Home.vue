@@ -418,7 +418,7 @@
     #scroll {
         position: absolute;
         left: 50%;
-        top: 60%;
+        top: 85%;
     }
     #scroll a {
         padding-top: 70px;
