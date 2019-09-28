@@ -314,6 +314,15 @@
                 ]
             }
         },
+        beforeRouteEnter: function (to, from, next) {
+            const passwd = prompt("This is a private project. Enter the password:", "");
+            if (passwd === '12345') {
+                next()
+            } else {
+                next(false)
+                alert('password is not correct.')
+            }
+        },
         components: {
             Sidebar
         }
