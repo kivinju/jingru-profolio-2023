@@ -412,9 +412,6 @@
     }
 
     /*scroll begin*/
-
-
-
     #scroll {
         position: absolute;
         left: 50%;
