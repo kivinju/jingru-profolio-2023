@@ -14,16 +14,16 @@
         </div>
         <Header/>
         <div class="container" id="projects">
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="01" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/builder">
@@ -46,16 +46,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="02" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/dvent">
@@ -78,16 +78,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="03" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/scheduler">
@@ -110,16 +110,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="04" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/parkin">
@@ -142,16 +142,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="05" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/waterme">
@@ -174,16 +174,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="06" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;06&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/tft">
@@ -308,7 +308,6 @@
 
     a {
         text-decoration: none;
-        color: black;
     }
 
     .blockquote {
@@ -364,13 +363,15 @@
 
     #projects .card li {
         padding: 10px 0 10px 0;
-        color: rgba(0, 0, 0, 0.1);
         font-size: 1.3em;
     }
 
-    #projects .card li.active {
+    #projects .card li a {
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    #projects .card li.active a{
         color: rgba(0, 0, 0, 0.8);
-        /*text-decoration: line-through;*/
     }
 
     #projects .card h1 {
