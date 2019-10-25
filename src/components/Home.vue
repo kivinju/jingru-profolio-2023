@@ -326,8 +326,11 @@
 
     #projects .card {
         margin-top: 30px;
-        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);
+        /*box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);*/
+        box-shadow: 0 5px 20px 2px #cbcbcb;
+        /*box-shadow: 0 5px 20px 2px #efefef;*/
         padding: 5% 0 5% 0;
+        border: 0px;
     }
 
     #projects .card-bigscreen {
@@ -402,7 +405,8 @@
         margin-bottom: 30px;
     }
     #home {
-        background-color: rgba(0, 0, 0, 0.1);
+        /*background-color: rgba(0, 0, 0, 0.1);*/
+        background-color: #eaeaea;
     }
     #projects {
         /*padding: 0 10% 0 10%;*/
