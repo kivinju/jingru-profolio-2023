@@ -43,16 +43,16 @@
                 </div>-->
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / Feedback Card</h1>
+                <h1 id="i-r" class="text-center">01 / FEEDBACK CARD</h1>
                 <div>
-                    <h2 id="i-b"><span>REQUIREMENTS ANALYSIS</span></h2>
+                    <h2 id="i-b"><span>Requirements Analysis</span></h2>
                     <div class="requirement">
                         <p>The TFT feedback card is intended to enhance students' study experience after each course.
                             Before starting the design process, I communicated with the PM and our operation team.
                             I worked with the PM on our Product Requirement Document (PRD).</p>
                     </div>
 
-                    <h2 id="i-ca"><span>FLOWCHART</span></h2>
+                    <h2 id="i-ca"><span>Flowchart</span></h2>
                     <div class="competitive">
                         <p>After finishing with the Product Requirement Document (PRD), I created a flowchart for the whole process and content of the mini application.</p>
 
@@ -60,7 +60,7 @@
 
                     </div>
 
-                    <h2 id="i-ui"><span>INITIAL DESIGN</span></h2>
+                    <h2 id="i-ui"><span>Initial Design</span></h2>
                     <div class="interview">
                         <p>Based on the wireframe, I created the initial version of the design and applied the TFT logo as a element in the tab bar.</p>
                         <!--<p>This was one of the interviews with my friend “Mei Han”, who was a 50-year-old new driver.</p>-->
@@ -88,7 +88,7 @@
 
                     </div>
 
-                    <h2 id="i-p"><span>ITERATION</span></h2>
+                    <h2 id="i-p"><span>Iteration</span></h2>
                     <div class="persona">
                         <p>After getting feedback from the PM and our operation team, I made adjustments to my initial design.
                         There were two important changes:</p>
@@ -105,17 +105,17 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / Speech Practice Tool</h1>
+                <h1 id="i-cd" class="text-center">02 / SPEECH PRACTICE TOOL</h1>
                 <div>
 
-                    <h2 id="i-ba"><span>BACKGROUND</span></h2>
+                    <h2 id="i-ba"><span>Background</span></h2>
                     <div class="analysis">
                         <p>The TFT Speech Practice Tool is intended to help students to self-test their English speaking when they studying by themselves.
                             Before starting the design process, I communicated with the PM and our operation team.
                             I worked with the PM on our Product Requirement Document (PRD).</p>
                     </div>
 
-                    <h2 id="i-us"><span>WIREFRAMES</span></h2>
+                    <h2 id="i-us"><span>Wireframes</span></h2>
                     <p>Due to the limited time, I created wireframes directly after understanding our demands:</p>
                     <ol>
                         <li>TOEFL Speaking - including TPO topics</li>
@@ -130,7 +130,7 @@
 
                 </div>
 
-                <h2 id="i-jm"><span>VISUAL DESIGN</span></h2>
+                <h2 id="i-jm"><span>Visual Design</span></h2>
                 <div class="map">
                     <p>I did visual design for the wireframes by using the TFT logo main colors.</p>
 
@@ -156,7 +156,7 @@
 
 
                 <hr />
-                <h1 id="i-rt" class="text-center">03 / Reflection & Takeaways</h1>
+                <h1 id="i-rt" class="text-center">03 / REFLECTION & TAKEAWAYS</h1>
                 <p style="margin-top:50px;">Due to the limited time for this project, I didn't have too much time
                     to complete each step in the user-centered design process in detail for this project, such as doing user research
                 among our target users. However, I communicated with my colleagues who were familiar with the users, about the needs of the application.
@@ -180,23 +180,23 @@
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / Feedback Card', 'sub': [
-                            {'id': 'i-b', 'content': 'REQUIREMENTS ANALYSIS'},
-                            {'id': 'i-ca', 'content': 'FLOWCHART'},
-                            {'id': 'i-ui', 'content': 'INITIAL DESIGN'},
-                            {'id': 'i-p', 'content': 'ITERATION'},
+                        'id': 'i-r', 'content': '01 / FEEDBACK CARD', 'sub': [
+                            {'id': 'i-b', 'content': 'Requirements Analysis'},
+                            {'id': 'i-ca', 'content': 'Flowchart'},
+                            {'id': 'i-ui', 'content': 'Initial Design'},
+                            {'id': 'i-p', 'content': 'Iteration'},
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / Speech Practice Tool', 'sub': [
-                            {'id': 'i-ba', 'content': 'BACKGROUND'},
-                            {'id': 'i-us', 'content': 'WIREFRAMES'},
-                            {'id': 'i-jm', 'content': 'VISUAL DESIGN'},
+                        'id': 'i-cd', 'content': '02 / SPEECH PRACTICE TOOL', 'sub': [
+                            {'id': 'i-ba', 'content': 'Background'},
+                            {'id': 'i-us', 'content': 'Wireframes'},
+                            {'id': 'i-jm', 'content': 'Visual Design'},
                         ]
                     },
 
                     {
-                        'id': 'i-rt', 'content': '03 / Reflection & Takeaways\n', 'sub': []
+                        'id': 'i-rt', 'content': '03 / REFLECTION & TAKEAWAYS\n', 'sub': []
                     },
                 ]
             }

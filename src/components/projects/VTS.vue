@@ -5,7 +5,7 @@
             <div class="col-md-8">
                 <img src="../../assets/waterme/first_image.png">
                 <div>
-                    <h2><span>About This Project</span></h2>
+                    <h2><span>About This Project -- Vts</span></h2>
                     <p><strong>Project type:</strong> Individual project</p>
                     <p><strong>Timeline:</strong> Two Months</p>
                     <p><strong>Context:</strong> This was a project inspired by a phenomenon around my life.</p>
@@ -17,9 +17,9 @@
 
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / RESEARCH</h1>
+                <h1 id="i-r" class="text-center">01 / Research</h1>
                 <div>
-                    <h2 id="i-b"><span>Inspiration</span></h2>
+                    <h2 id="i-b"><span>INSPIRATION</span></h2>
                     <div class="row">
                         <div class="offset-lg-1 col-lg-6">
                             <div>
@@ -49,7 +49,7 @@
                         </div>
                     </div>
 
-                    <h2 id="i-ca"><span>User Research</span></h2>
+                    <h2 id="i-ca"><span>USER RESEARCH</span></h2>
                     <div class="competitive">
                         <p>I conducted a <strong>survey</strong> among my friends and received <strong>feedback from 121 people</strong>.</p>
 
@@ -70,12 +70,12 @@
                         <p>But...</p>
                     </div>
 
-                    <h2 id="i-st"><span>User Story</span></h2>
+                    <h2 id="i-st"><span>USER STORY</span></h2>
                     <div class="story">
                         <img src="../../assets/waterme/persona.png">
                     </div>
 
-                    <h2 id="i-i"><span>Insight</span></h2>
+                    <h2 id="i-i"><span>INSIGHT</span></h2>
                     <p>Through this project, I would like to create an interaction device to make people aware of the companionship
                         of plants and awakening people to take good care of them.</p>
 
@@ -83,14 +83,14 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / CONCEPTUAL DESIGN</h1>
+                <h1 id="i-cd" class="text-center">02 / Conceptual Design</h1>
                 <div>
-                    <h2 id="i-us"><span>Mind Map</span></h2>
+                    <h2 id="i-us"><span>MIND MAP</span></h2>
                     <img src="../../assets/waterme/mind_map.png">
                     <p>Other materials : Arduino, Polyfoam, Cotton cloth</p>
                 </div>
 
-                <h2 id="i-jm"><span>Sketch</span></h2>
+                <h2 id="i-jm"><span>SKETCH</span></h2>
                 <div class="row">
                     <div class="offset-lg-1 col-lg-6">
                         <div>
@@ -106,22 +106,22 @@
 
 
                 <hr>
-                <h1 id="i-id" class="text-center">03 / INTERACTION DESIGN</h1>
-                <h2 id="i-w"><span>Materials</span></h2>
+                <h1 id="i-id" class="text-center">03 / Interaction Design</h1>
+                <h2 id="i-w"><span>MATERIALS</span></h2>
                 <img src="../../assets/waterme/materials.png">
 
 
-                <h2 id="i-vd"><span>Circuit Diagram</span></h2>
+                <h2 id="i-vd"><span>CIRCUIT DIAGRAM</span></h2>
                 <img src="../../assets/waterme/circuit_diagram.png">
 
-                <h2 id="i-pr"><span>Production Progress</span></h2>
+                <h2 id="i-pr"><span>PRODUCTION PROGRESS</span></h2>
                 <img src="../../assets/waterme/production_progress.png" style="margin-bottom:30px;">
                 <p>After setting up the device, I began to connect the circuit and tested LED lights.</p>
                 <p>Meanwhile, I wrote code to achieve the desired effect.</p>
                 <img src="../../assets/waterme/production_progress_a.png" style="margin-bottom:30px;">
                 <img src="../../assets/waterme/production_progress_b.png">
 
-                <h2 id="i-in"><span>Interaction Process</span></h2>
+                <h2 id="i-in"><span>INTERACTION PROCESS</span></h2>
                 <img src="../../assets/waterme/interaction_process.png" >
                 <ul>
                     <li>By rotating the watering can counterclockwise until the protoresistor appears, the LED lights start to
@@ -150,11 +150,11 @@
                     </div>
                 </div>
 
-                <h2 id="i-s"><span>User Scenario</span></h2>
+                <h2 id="i-s"><span>USER SCENARIO</span></h2>
                     <img src="../../assets/waterme/user_scenario.png">
 
                 <hr>
-                <h1 id="i-ut" class="text-center" style="margin-bottom:50px;">04 / SUMMARY</h1>
+                <h1 id="i-ut" class="text-center" style="margin-bottom:50px;">04 / Summary</h1>
                 <div class="row">
                     <div class="offset-lg-1 col-lg-6">
                         <div>
@@ -187,30 +187,30 @@
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / RESEARCH', 'sub': [
-                            {'id': 'i-b', 'content': 'Inspiration'},
-                            {'id': 'i-ca', 'content': 'User Research'},
-                            {'id': 'i-st', 'content': 'User Story'},
-                            {'id': 'i-i', 'content': 'Insight'},
+                        'id': 'i-r', 'content': '01 / Research', 'sub': [
+                            {'id': 'i-b', 'content': 'INSPIRATION'},
+                            {'id': 'i-ca', 'content': 'USER RESEARCH'},
+                            {'id': 'i-st', 'content': 'USER STORY'},
+                            {'id': 'i-i', 'content': 'INSIGHT'},
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / CONCEPTUAL DESIGN', 'sub': [
-                            {'id': 'i-us', 'content': 'Mind Map'},
-                            {'id': 'i-jm', 'content': 'Sketch'},
+                        'id': 'i-cd', 'content': '02 / Conceptual Design', 'sub': [
+                            {'id': 'i-us', 'content': 'MIND MAP'},
+                            {'id': 'i-jm', 'content': 'SKETCH'},
                         ]
                     },
                     {
-                        'id': 'i-id', 'content': '03 / INTERACTION DESIGN', 'sub': [
-                            {'id': 'i-w', 'content': 'Materials'},
-                            {'id': 'i-vd', 'content': 'Circuit Diagram'},
-                            {'id': 'i-pr', 'content': 'Production Progress'},
-                            {'id': 'i-in', 'content': 'Interaction Process'},
-                            {'id': 'i-s', 'content': 'User Scenario'},
+                        'id': 'i-id', 'content': '03 / Interaction Design', 'sub': [
+                            {'id': 'i-w', 'content': 'MATERIALS'},
+                            {'id': 'i-vd', 'content': 'CIRCUIT DIAGRAM'},
+                            {'id': 'i-pr', 'content': 'PRODUCTION PROGRESS'},
+                            {'id': 'i-in', 'content': 'INTERACTION PROCESS'},
+                            {'id': 'i-s', 'content': 'USER SCENARIO'},
                         ]
                     },
                     {
-                        'id': 'i-ut', 'content': '04 / SUMMARY', 'sub': []
+                        'id': 'i-ut', 'content': '04 / Summary', 'sub': []
                     },
                     // {
                     //     'id': 'i-rt', 'content': '05 / Reflection & Takeaways\n', 'sub': []

@@ -8,33 +8,37 @@
                 <h1>Jingru Zhao</h1>
                 <h3>User Experience Designer</h3>
             </div>
+            <div id="scroll">
+                <a href="#projects"><span></span></a>
+            </div>
         </div>
         <Header/>
         <div class="container" id="projects">
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="01" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li class="active">&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
-                    <router-link class="col-sm-5" to="/project/parkin">
-                        <img src="../assets/parkin_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    <router-link class="col-sm-5" to="/project/builder">
+                        <img src="../assets/builder.png" width="100%" :class="{'img-bigscreen': bigScreen}">
                     </router-link>
                     <div class="col-sm-6">
                         <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
-                            <h1>Park In</h1>
-                            <div class="text-muted"># Interaction & Interface Design</div>
-                            <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
+                            <h1>Builder</h1>
+                            <div class="text-muted"># Internship project @TuSimple, Inc.</div>
+                            <p>An internal web-based tool that integrates different modules to generate autonomous driving software.</p>
                             <div class="row">
                                 <div class="col-4">
                                     <h2 class="hline"></h2>
                                 </div>
-                                <router-link class="col-8 readon" to="/project/parkin">
+                                <router-link class="col-8 readon" to="/project/builder">
                                     <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
                                 </router-link>
                             </div>
@@ -42,46 +46,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="02" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
-                        </ul>
-                    </div>
-                    <router-link class="col-sm-5" to="/project/waterme">
-                        <img src="../assets/waterme_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
-                    </router-link>
-                    <div class="col-sm-6">
-                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
-                            <h1>Water Me</h1>
-                            <div class="text-muted"># Interactive Device</div>
-                            <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
-                            <div class="row">
-                                <div class="col-4">
-                                    <h2 class="hline"></h2>
-                                </div>
-                                <router-link class="col-8 readon" to="/project/waterme">
-                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
-                                </router-link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
-                <div class="row">
-                    <div class="col-sm-1" v-if="bigScreen">
-                        <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/dvent">
@@ -104,15 +78,16 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="03" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/scheduler">
@@ -135,15 +110,80 @@
                     </div>
                 </div>
             </div>
-            <div class="card" :class="{'card-bigscreen': bigScreen}">
+            <div id="04" class="card" :class="{'card-bigscreen': bigScreen}">
                 <div class="row">
                     <div class="col-sm-1" v-if="bigScreen">
                         <ul class="vertical-center">
-                            <li>&nbsp;&nbsp;01&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;02&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;03&nbsp;&nbsp;</li>
-                            <li>&nbsp;&nbsp;04&nbsp;&nbsp;</li>
-                            <li class="active">&nbsp;&nbsp;05&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <router-link class="col-sm-5" to="/project/parkin">
+                        <img src="../assets/parkin_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    </router-link>
+                    <div class="col-sm-6">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
+                            <h1>Park In</h1>
+                            <div class="text-muted"># Interaction & Interface Design</div>
+                            <p>A mobile application that helps drivers find parking spots easily and save time in a large parking lot.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <router-link class="col-8 readon" to="/project/parkin">
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="05" class="card" :class="{'card-bigscreen': bigScreen}">
+                <div class="row">
+                    <div class="col-sm-1" v-if="bigScreen">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
+                        </ul>
+                    </div>
+                    <router-link class="col-sm-5" to="/project/waterme">
+                        <img src="../assets/waterme_cover.png" width="100%" :class="{'img-bigscreen': bigScreen}">
+                    </router-link>
+                    <div class="col-sm-6">
+                        <div class="card-description" :class="{'vertical-center': bigScreen, 'card-description-bigscreen': bigScreen}">
+                            <h1>Water Me</h1>
+                            <div class="text-muted"># Interactive Device</div>
+                            <p>An interactive device that intends to awake the consciousness of the people to care for plants.</p>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h2 class="hline"></h2>
+                                </div>
+                                <router-link class="col-8 readon" to="/project/waterme">
+                                    <h2>R E A D &nbsp;&nbsp;&nbsp;O N</h2>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="06" class="card" :class="{'card-bigscreen': bigScreen}">
+                <div class="row">
+                    <div class="col-sm-1" v-if="bigScreen">
+                        <ul class="vertical-center">
+                            <li>&nbsp;&nbsp;<a href="#01">01</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#02">02</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#03">03</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#04">04</a>&nbsp;&nbsp;</li>
+                            <li>&nbsp;&nbsp;<a href="#05">05</a>&nbsp;&nbsp;</li>
+                            <li class="active">&nbsp;&nbsp;<a href="#06">06</a>&nbsp;&nbsp;</li>
                         </ul>
                     </div>
                     <router-link class="col-sm-5" to="/project/tft">
@@ -268,7 +308,6 @@
 
     a {
         text-decoration: none;
-        color: black;
     }
 
     .blockquote {
@@ -286,8 +325,11 @@
 
     #projects .card {
         margin-top: 30px;
-        box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);
+        /*box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.6);*/
+        box-shadow: 0 5px 20px 2px #cbcbcb;
+        /*box-shadow: 0 5px 20px 2px #efefef;*/
         padding: 5% 0 5% 0;
+        border: 0px;
     }
 
     #projects .card-bigscreen {
@@ -321,13 +363,15 @@
 
     #projects .card li {
         padding: 10px 0 10px 0;
-        color: rgba(0, 0, 0, 0.1);
         font-size: 1.3em;
     }
 
-    #projects .card li.active {
+    #projects .card li a {
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    #projects .card li.active a{
         color: rgba(0, 0, 0, 0.8);
-        /*text-decoration: line-through;*/
     }
 
     #projects .card h1 {
@@ -362,7 +406,8 @@
         margin-bottom: 30px;
     }
     #home {
-        background-color: rgba(0, 0, 0, 0.1);
+        /*background-color: rgba(0, 0, 0, 0.1);*/
+        background-color: #eaeaea;
     }
     #projects {
         /*padding: 0 10% 0 10%;*/
@@ -370,4 +415,56 @@
     .readon {
         color: #5d60fd;
     }
+
+    /*scroll begin*/
+    #scroll {
+        position: absolute;
+        left: 50%;
+        top: 85%;
+    }
+    #scroll a {
+        padding-top: 70px;
+    }
+    #scroll a span {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-left: -12px;
+        border-left: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-animation: sdb 1.5s infinite;
+        animation: sdb 1.5s infinite;
+        box-sizing: border-box;
+    }
+    @-webkit-keyframes sdb {
+        0% {
+            -webkit-transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+    @keyframes sdb {
+        0% {
+            transform: rotate(-45deg) translate(0, 0);
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            transform: rotate(-45deg) translate(-20px, 20px);
+            opacity: 0;
+        }
+    }
+    /*scroll end*/
 </style>

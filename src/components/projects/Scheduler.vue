@@ -3,7 +3,7 @@
         <div class="row">
             <Sidebar :indexes="indexes" class="col-md-3"></Sidebar>
             <div class="col-md-8">
-                <h1>Office Hour Scheduler</h1>
+                <!--<h1>Office Hour Scheduler</h1>-->
                 <img src="../../assets/scheduler/first.png">
                 <div>
                     <h2><span>About This Project</span></h2>
@@ -24,9 +24,9 @@
 
                 <hr />
 
-                <h1 id="i-r" class="text-center">01 / Conceptual Design</h1>
+                <h1 id="i-r" class="text-center">01 / CONCEPTUAL DESIGN</h1>
                 <div>
-                    <h2 id="i-b"><span>REQUIREMENTS</span></h2>
+                    <h2 id="i-b"><span>Requirements</span></h2>
                     <div class="requirement">
                         <p>The teacher needs to specify the following:</p>
                         <ul>
@@ -42,7 +42,7 @@
                         </ul>
                     </div>
 
-                    <h2 id="i-ca"><span>USER SCENARIO</span></h2>
+                    <h2 id="i-ca"><span>User Scenario</span></h2>
                     <div class="competitive">
                         <ul>
                             <li>Mary has been a full-time instructor at DePaul for three years.
@@ -67,10 +67,10 @@
 
 
                 <hr>
-                <h1 id="i-cd" class="text-center">02 / Interaction Design</h1>
+                <h1 id="i-cd" class="text-center">02 / INTERACTION DESIGN</h1>
                 <div>
 
-                    <h2 id="i-ba"><span>FLOWCHART</span></h2>
+                    <h2 id="i-ba"><span>Flowchart</span></h2>
                     <div class="analysis">
                         <p>After fully understanding the requirements and the scenarios, I created a flowchart
                             for the whole process of my future design by using Axure.</p>
@@ -78,7 +78,7 @@
                         <img src="../../assets/scheduler/scheduler_flowchart.png">
                     </div>
 
-                    <h2 id="i-us"><span>WIREFRAMES</span></h2>
+                    <h2 id="i-us"><span>Wireframes</span></h2>
                     <p>Based on the flowchart, I created wireframes for both full-time and part-time instructors by using Adobe XD.</p>
                             <img src="../../assets/scheduler/screenshot.png">
                     <br /><br /><br />
@@ -100,14 +100,14 @@
 
                 </div>
 
-                <h2 id="i-jm"><span>VISUAL DESIGN</span></h2>
+                <h2 id="i-jm"><span>Visual Design</span></h2>
                 <div class="map">
                     <p>The main colour I used for my visual design is the DePaul representative blue color. I created this design by using Adobe XD.</p>
                     <img src="../../assets/scheduler/visual.png">
 
                 </div>
 
-                <h2 id="i-pr"><span>PROTOTYPE</span></h2>
+                <h2 id="i-pr"><span>Prototype</span></h2>
                 <p>I created this prototype by using Adobe XD.</p>
 
                 <video autoplay muted loop id="myVideo" width="100%">
@@ -116,7 +116,7 @@
 
 
                 <hr />
-                <h1 id="i-rt" class="text-center">03 / Reflection & Takeaways</h1>
+                <h1 id="i-rt" class="text-center">03 / REFLECTION & TAKEAWAYS</h1>
 
                 <h2 class="takeaways">Drawing a flowchart is an important step</h2>
                 <p>While designing Office Hours Scheduler, I needed to understand the whole process of using my future
@@ -146,24 +146,24 @@
             return {
                 "indexes": [
                     {
-                        'id': 'i-r', 'content': '01 / Conceptual Design', 'sub': [
-                            {'id': 'i-b', 'content': 'REQUIREMENTS'},
-                            {'id': 'i-ca', 'content': 'USER SCENARIO'},
+                        'id': 'i-r', 'content': '01 / CONCEPTUAL DESIGN', 'sub': [
+                            {'id': 'i-b', 'content': 'Requirements'},
+                            {'id': 'i-ca', 'content': 'User Scenario'},
                             /*{'id': 'i-ui', 'content': 'INITIAL DESIGN'},
                             {'id': 'i-p', 'content': 'ITERATION'},*/
                         ]
                     },
                     {
-                        'id': 'i-cd', 'content': '02 / Interaction Design', 'sub': [
-                            {'id': 'i-ba', 'content': 'FLOWCHART'},
-                            {'id': 'i-us', 'content': 'WIREFRAMES'},
-                            {'id': 'i-jm', 'content': 'VISUAL DESIGN'},
-                            {'id': 'i-pr', 'content': 'PROTOTYPE'},
+                        'id': 'i-cd', 'content': '02 / INTERACTION DESIGN', 'sub': [
+                            {'id': 'i-ba', 'content': 'Flowchart'},
+                            {'id': 'i-us', 'content': 'Wireframes'},
+                            {'id': 'i-jm', 'content': 'Visual Design'},
+                            {'id': 'i-pr', 'content': 'Prototype'},
                         ]
                     },
 
                     {
-                        'id': 'i-rt', 'content': '03 / Reflection & Takeaways\n', 'sub': []
+                        'id': 'i-rt', 'content': '03 / REFLECTION & TAKEAWAYS\n', 'sub': []
                     },
                 ]
             }
