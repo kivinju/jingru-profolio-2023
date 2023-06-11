@@ -55,14 +55,15 @@
           <div class="row">
             <div class="col-md-4 offset-md-2">
               <h1>Map elements visualizer</h1>
-              <p class="mt-4 mb-5">A platform for Engineers to import TuSimple maps, view elements (lane/road marker/traffic light, etc.), and compare variations across different maps.</p>
-              <button type="button" class="btn btn-light px-4 py-2">View Project
+              <p class="mt-4 mb-5">A platform for Engineers to import TuSimple maps, view elements (lane/road
+                marker/traffic light, etc.), and compare variations across different maps.</p>
+              <RouterLink to="/map" type="button" class="btn btn-light px-4 py-2">View Project
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                   class="bi bi-arrow-right-short" viewBox="0 0.5 16 16">
                   <path fill-rule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                 </svg>
-              </button>
+              </RouterLink>
             </div>
             <div class="col-md-6 d-flex align-items-center">
               <img class="mx-auto" src="../assets/map-mockup-cover.png" />
@@ -75,14 +76,15 @@
           <div class="row">
             <div class="col-md-4 offset-md-2">
               <h1>Information density platform</h1>
-              <p class="mt-4 mb-5">A platform helps schedulers, engineers, PMs and stakeholders to monitor truck autonomous driving capability and display truck-related information.</p>
-              <button type="button" class="btn btn-dark px-4 py-2">View Project
+              <p class="mt-4 mb-5">A platform helps schedulers, engineers, PMs and stakeholders to monitor truck
+                autonomous driving capability and display truck-related information.</p>
+              <RouterLink to="/midgar" type="button" class="btn btn-dark px-4 py-2">View Project
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                   class="bi bi-arrow-right-short" viewBox="0 0.5 16 16">
                   <path fill-rule="evenodd"
                     d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
                 </svg>
-              </button>
+              </RouterLink>
             </div>
             <div class="col-md-6 d-flex align-items-center">
               <img class="mx-auto" src="../assets/midgar-mockup.png" />
@@ -91,6 +93,9 @@
         </div>
       </div>
     </full-page>
+    <div class="fixed-bottom" v-show="isVisible">
+      <p class="text-center footer-text">© 2023 Jingru Zhao</p>
+    </div>
   </div>
 </template>
 
@@ -99,21 +104,26 @@ export default {
   name: 'App',
   data() {
     return {
+      isVisible: false,
       options: {
         licenseKey: 'YOUR_KEY_HERE',
         afterLoad: this.afterLoad,
         scrollOverflow: true,
         scrollBar: false,
-        navigation: true,
+        navigation: false,
         anchors: ['introduction', 'projects', 'map', 'midgar'],
         sectionsColor: ['#ffffff', '#fafafa', '#000000', '#F0F5FF']
-      }
+      },
     }
   },
   methods: {
-
     afterLoad() {
       console.log('After load')
+      if (location.hash === '#midgar') {
+        this.isVisible = true
+      } else {
+        this.isVisible = false
+      }
     },
   }
 }
