@@ -1,0 +1,19 @@
+{
+  "name": "jingru-profolio-2023",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.2",
+    "vue-fullpage.js": "^0.2.15",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.5"
+  }
+}
