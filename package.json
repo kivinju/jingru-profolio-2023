@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "localstorage-slim": "^2.4.0",
     "vue": "^3.3.2",
     "vue-fullpage.js": "^0.2.15",
     "vue-router": "^4.2.0"

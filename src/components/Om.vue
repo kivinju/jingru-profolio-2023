@@ -1,8 +1,7 @@
 <template>
     <div class="image-container">
         <img src="../assets/om/1.png">
-        <video controls muted id="myVideo" width="100%">
-            <source src="../assets/om/om_prototype.mov" type="video/mp4">
+        <video controls muted src="/om_prototype.mov" width="100%">
         </video>
         <img src="../assets/om/2.png">
         <img src="../assets/om/3.png">
