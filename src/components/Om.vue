@@ -1,7 +1,7 @@
 <template>
     <div class="image-container">
         <img src="../assets/om/1.png">
-        <video controls muted src="/om_prototype.mov" width="100%">
+        <video muted loop autoplay src="/om_prototype.mov" width="100%">
         </video>
         <img src="../assets/om/2.png">
         <img src="../assets/om/3.png">
