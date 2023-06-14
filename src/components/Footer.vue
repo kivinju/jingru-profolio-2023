@@ -1,6 +1,6 @@
 <template>
-    <div class="position-absolute">
-        <p class="text-center">© 2019 Jingru Zhao</p>
+    <div class="align-middle">
+        <p class="text-center">© 2023 Jingru Zhao</p>
     </div>
 </template>
 

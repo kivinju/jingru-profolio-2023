@@ -28,7 +28,10 @@ const router = createRouter({
       name: 'midgar',
       component: () => import('../components/Midgar.vue')
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router
