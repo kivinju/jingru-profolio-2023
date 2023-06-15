@@ -38,8 +38,11 @@
     <div class="image-container" style="background-color: #f5f5f5">
         <img src="../assets/map/13.png" class="container mx-auto d-block">
     </div>
+    <div class="image-container" style="background-color: #f5f5f5">
+        <img src="../assets/map/14.png" class="container mx-auto d-block">
+    </div>
     <div class="image-container" style="background-color: #5da399">
-        <img src="../assets/map/14.png" class="w-100">
+        <img src="../assets/map/15.png" class="w-100">
     </div>
 </template>
 

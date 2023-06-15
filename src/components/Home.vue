@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id='map-section'>
+    <div class="container-fluid" id='map'>
       <div class="row min-vh-100">
         <div class="col-md-4 offset-md-2 my-auto">
           <h1>Map elements visualizer</h1>
@@ -64,10 +64,10 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id='midgar-section'>
+    <div class="container-fluid" id='midgar'>
       <div class="row min-vh-100">
         <div class="col-md-4 offset-md-2 my-auto">
-          <h1>Information density platform</h1>
+          <h1>Data density platform</h1>
           <p class="mt-4 mb-5">A platform helps schedulers, engineers, PMs and stakeholders to monitor truck
             autonomous driving capability and display truck-related information.</p>
           <RouterLink to="/midgar" type="button" class="btn btn-dark px-4 py-2 mb-4">View Project
@@ -128,18 +128,18 @@ p {
   background-repeat: no-repeat;
 }
 
-#map-section {
+#map {
   background-size: cover;
   background-image: url('../assets/map-background.png');
   background-position: right top;
   background-repeat: no-repeat;
 }
 
-#map-section p {
+#map p {
   color: #d9d9d9;
 }
 
-#map-section h1 {
+#map h1 {
   color: #f0f0f0;
 }
 </style>

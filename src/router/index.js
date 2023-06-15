@@ -29,8 +29,16 @@ const router = createRouter({
       component: () => import('../components/Midgar.vue')
     }
   ],
-  scrollBehavior (to, from, savedPosition) {
-    return { top: 0 }
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      savedPosition.behavior = 'instant'
+      return savedPosition
+    } else {
+      return {
+        top: 0,
+        behavior: 'instant'
+      }
+    }
   }
 })
 
