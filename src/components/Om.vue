@@ -63,13 +63,13 @@
     <div class="image-container" style="background-color: #ecefef">
         <img src="../assets/om/20.png" class="container mx-auto d-block">
     </div>
-    <div class="image-container" style="background-color: #f5f5f5">
+    <div class="image-container" style="background-color: #ecefef">
         <img src="../assets/om/21.png" class="container mx-auto d-block">
     </div>
-    <div class="image-container" style="background-color: #f5f5f5">
+    <div class="image-container" style="background-color: #ecefef">
         <img src="../assets/om/22.png" class="container mx-auto d-block">
     </div>
-    <div class="image-container" style="background-color: #f5f5f5">
+    <div class="image-container" style="background-color: #ecefef">
         <img src="../assets/om/23.png" class="container mx-auto d-block">
     </div>
     <div class="image-container" style="background-color: #ecefef">
