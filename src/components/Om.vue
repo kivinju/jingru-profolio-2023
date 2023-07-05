@@ -96,8 +96,19 @@
     <div class="image-container" style="background-color: #f5f5f5">
         <img src="../assets/om/31.png" class="container mx-auto d-block">
     </div>
-    <div class="image-container" style="background-color: #252828">
-        <img src="../assets/om/32.png" class="w-100">
+    <div class="container-fluid bg-dark">
+        <div class="row py-5 mx-4">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <RouterLink to="map" class="float-end h4 text-decoration-none">Map elements visualizer
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                        class="bi bi-arrow-right-short" viewBox="0 0.5 16 16">
+                        <path fill-rule="evenodd"
+                            d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                    </svg>
+                </RouterLink>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -110,4 +121,11 @@ export default {
 </script>
 
 <style scoped>
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.65);
+}
 </style>

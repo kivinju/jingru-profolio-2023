@@ -28,7 +28,7 @@
     <div class="container-fluid" id='projects'>
       <div class="row min-vh-100">
         <div class="col-md-4 offset-md-2 my-auto">
-          <h1>Autonomous Driving Launch System</h1>
+          <h1>Autonomous driving launch system</h1>
           <p class="mt-4 mb-5">An internal tool utilized by TuSimple Test Engineers to configure on-truck software and
             launch the
             autonomous driving system.</p>
