@@ -13,7 +13,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
-                        <a class="nav-link" href="/#projects">Work</a>
+                        <a class="nav-link" href="#projects">Work</a>
                     </li>
                     <li class="nav-item me-3">
                         <a class="nav-link" href="https://drive.google.com/file/d/1dlCv2E5nYcNXzDmXzwl3qEq0I5_YMPvY/view?usp=sharing" target="_blank">Resume</a>
