@@ -12,4 +12,5 @@ export default defineConfig({
     }
   },
   assetsInclude: ['**/*.mov'],
+  base: '/jingru-profolio-2023/',
 })
