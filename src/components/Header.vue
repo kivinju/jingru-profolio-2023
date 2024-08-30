@@ -16,7 +16,7 @@
                         <a class="nav-link" href="#projects">Work</a>
                     </li>
                     <li class="nav-item me-3">
-                        <a class="nav-link" href="https://drive.google.com/file/d/1dlCv2E5nYcNXzDmXzwl3qEq0I5_YMPvY/view?usp=sharing" target="_blank">Resume</a>
+                        <a class="nav-link" href="https://drive.google.com/file/d/1-6KVBCTu5-IbDUmrypqFjPywJlJ0obVd/view" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
